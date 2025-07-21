@@ -1,0 +1,29 @@
+FROM python:3.10.12-slim
+
+# 必要なパッケージ（Ruby, bundler, 依存関係、git）をインストール
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    ruby-full \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# アプリケーションコードをコピー
+COPY . .
+
+WORKDIR /sparql_gen_benchmark
+
+# Pythonパッケージインストール
+RUN pip install --no-cache-dir -r requirements.txt
+
+# rdf-config用のGemfileがあるディレクトリへ移動してbundle install
+WORKDIR /sparql_gen_benchmark/rdf-config
+RUN gem install bundler -v 1.17.2 && bundle install
+
+# 作業ディレクトリを元に戻す
+WORKDIR /sparql_gen_benchmark
+
+EXPOSE 8502
+
+# 必要に応じてコマンドを調整
+CMD ["streamlit", "run", "test.py", "--server.port=8502", "--server.address=0.0.0.0"]

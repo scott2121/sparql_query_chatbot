@@ -1,0 +1,37 @@
+# CUDA 12.4 ベースイメージを使用
+FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu20.04
+
+# Python 3.10のインストール（Ubuntu 20.04用）
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    software-properties-common \
+    && add-apt-repository -y ppa:deadsnakes/ppa \
+    && apt-get update \
+    && apt-get install -y \
+    python3.10 \
+    python3.10-venv \
+    python3.10-distutils \
+    curl \
+    && curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10 \
+    && rm -rf /var/lib/apt/lists/*
+
+# デフォルトのPythonをPython3.10に設定
+RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1 \
+    && update-alternatives --set python3 /usr/bin/python3.10 \
+    && update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+
+# 作業ディレクトリの設定
+WORKDIR /backend
+
+# バックエンドフォルダをコンテナにコピー
+COPY backend/ ./backend
+
+# 依存関係のインストール
+RUN pip3 install --no-cache-dir -r ./backend/requirements.txt
+
+# CUDA関連の環境変数を設定
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
+ENV PYTHONDONTWRITEBYTECODE=1
+
+# FastAPIアプリケーションの実行
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

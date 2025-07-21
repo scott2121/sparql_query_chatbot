@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "database": "uniprot",
+        "prompt": "The user's question contains conditions to narrow down information. In this task, we want to extract conditions and variables based on the provided [variables_info]. Please refrain from mentioning anything that is not stated in the question.\n\n[variables_info]:\n{variables_info}\n\n[EXAPMLE]:\nUser Question: What is the protein id of ACE2 gene registered in UniProt?\n[OUTPUT]:\n1. Variables\nvariables to look for:\n- UniProt protein\nvariables to look for based on elements in [variables_info]:\n- UniProt\n\n2. Conditions\nconditions to narrow down:\n- ACE2 gene\nvariables to narrow down based on elements in [variables_info]:\n- uniprot_gene_name\ncondition and variable pair:\n- {uniprot_gene_name: \"ACE2\"}\n[EXAMPLE END]\n\nFollowing this example, identify the variables and conditions from the user question below. Make sure to only include variables mentioned in [variables_info].\n[ATTENTION] When processing chemical equations, do not alter their meaning; preserve '=' for equilibrium reactions and use '=>' for irreversible reactions, as these symbols convey different chemical meanings.\n\nUser Question: {user_question}\n[OUTPUT]:\n",
+        "variables": ["variables_info", "user_question"]
+    },
+    {
+        "id": 5,
+        "database": "rhea",
+        "prompt": "The user's question contains conditions to narrow down information. In this task, we want to extract conditions and variables based on the provided [variables_info]. Please refrain from mentioning anything that is not stated in the question.\n\nEntities in the [variables_info] data model are represented by prefixed variable names, such as \"person_\", \"place_\", or others, indicating their association with specific entity types (e.g., \"person_death_date\" for a person entity). Furthermore, relationships between entities are shown through attributes like \"person_nationality: Country\", which links one entity type (in this case, a person) to another (a country).\n\n[variables_info]:\n{variables_info}\n\n[EXAPMLE]:\nRHEA:10024\u306e\u53cd\u5fdc\u5f0f\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\n[OUTPUT]:\n1. Variables\nWhat does user look for:\n- \u53cd\u5fdc\u5f0f(equation)\nvariables to look for based on elements in [variables_info]:\n- reaction_equation\n\n2. Conditions\nconditions to narrow down:\n- RHEA:10024\nvariables to narrow down based on elements in [variables_info]. upper variables and conditions should be connected entity like person_ and Person :\n- Reaction\ncondition and variable (If it's a name, use a full name with underscore URI and prefix res:) pair:\n- {Reaction: rhea:10024}\n\n[EXAMPLE END]\n\nFollowing this example, identify the variables and conditions from the user question below. Make sure to only include variables mentioned in [variables_info].\n\nUser Question: {user_question}\n[OUTPUT]:\n",
+        "variables": ["variables_info", "user_question"]
+    },
+    {
+        "id": 6,
+        "database": "bgee",
+        "prompt": "The user's question contains conditions to narrow down information. In this task, we want to extract conditions and variables based on the provided [variables_info]. Please refrain from mentioning anything that is not stated in the question.\n\n[variables_info]:\n{variables_info}\n\n[EXAPMLE]:\nWhat is the expression level of the ACE2 gene?\n[OUTPUT]:\n1. Variables\nWhat does user look for:\n- expression level \nvariables to look for based on elements in [variables_info]:\n- expression_level\n\n2. Conditions\nconditions to narrow down:\n- ACE2 gene\nvariables to narrow down based on elements in [variables_info]. upper variables and conditions should be connected entity like person_ and Person :\n- gene_name\ncondition and variable (If it's a name, use a full name with underscore URI and prefix res:) pair:\n- {gene_name: \"ACE2\"}\n\n[EXAMPLE END]\n\nFollowing this example, identify the variables and conditions from the user question below. Make sure to only include variables mentioned in [variables_info].\n\nUser Question: {user_question}\n[OUTPUT]:",
+        "variables": ["variables_info", "user_question"]
+    },
+    {
+        "id": 7,
+        "database": "uniprot_and_bgee",
+        "prompt": "The user's question contains conditions to narrow down information. In this task, we want to extract conditions and variables based on the provided [variables_info]. Please refrain from mentioning anything that is not stated in the question.\n\n[variables_info]:\n{variables_info}\n\n[EXAPMLE]:\nWhat is the expression level of the ACE2 gene?\n[OUTPUT]:\n1. Variables\nWhat does user look for:\n- expression level \nvariables to look for based on elements in [variables_info]:\n- expression_level\n\n2. Conditions\nconditions to narrow down:\n- ACE2 gene\nvariables to narrow down based on elements in [variables_info]. upper variables and conditions should be connected entity like person_ and Person :\n- gene_name\ncondition and variable pair:\n- {gene_name: \"ACE2\"}\n\n[EXAMPLE END]\n\nFollowing this example, identify the variables and conditions from the user question below. Make sure to only include variables mentioned in [variables_info].\n\nUser Question: {user_question}\n[OUTPUT]:",
+        "variables": ["variables_info", "user_question"]
+    }
+]
