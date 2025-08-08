@@ -1,0 +1,9 @@
+Q1:
+  variables: [Person]
+  parameters:
+    Profession: "res:Politician"
+
+Q1:
+  variables: [Person]
+  parameters:
+    Profession: "res:Politician"

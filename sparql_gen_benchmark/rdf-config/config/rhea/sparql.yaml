@@ -1,0 +1,1344 @@
+Q1-1-1:
+  description: Please tell me the reaction formula for rhea:10024
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q1-2-1:
+  description: What is the chemical equation for rhea:10024?
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q1-3-1:
+  description: Please show the details of the chemical equation corresponding to rhea:10024.
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q1-4-1:
+  description: rhea:10024の反応式を教えてください
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q1-5-1:
+  description: rhea:10024の化学反応の方程式は何ですか？
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q1-6-1:
+  description: rhea:10024に対応する化学反応式の詳細を示してください。
+  variables: [reaction_equation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-1-1:
+  description: Please tell me the ChEBI IDs of the compounds involved in the rhea:10024 reaction
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-2-1:
+  description: What are the ChEBI identifiers of the molecules participating in the rhea:10024 reaction?
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-3-1:
+  description: Please list the ChEBI numbers of the compounds related to rhea:10024.
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-4-1:
+  description: rhea:10024の反応に関与する化合物のCHEBI IDを教えてください
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-5-1:
+  description: rhea:10024の反応に参加する分子のCHEBI識別子は何ですか？
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q2-6-1:
+  description: rhea:10024に関連する化合物のCHEBI番号をリストアップしてください。
+  variables: [compound_chebi]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q3-1-1:
+  description: Please tell me the RHEA IDs of reactions involving the L-lysyl-[histone] molecule
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-2-1:
+  description: What are the RHEA identifiers of reactions containing the L-lysyl-[histone] molecule?
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-3-1:
+  description: Please show the RHEA IDs of chemical reactions in which the L-lysyl-[histone] molecule participates.
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-4-1:
+  description: L-lysyl-[histone]分子が関与する反応のRHEA IDを教えてください
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-5-1:
+  description: L-lysyl-[histone]分子を含む反応のRHEA識別子は何ですか？
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応のRHEA IDを示してください。
+  variables: [Reaction]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q3-1-2:
+  description: Please tell me the RHEA IDs of reactions involving the D-tryptophan molecule
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q3-2-2:
+  description: What are the RHEA identifiers of reactions containing the D-tryptophan molecule?
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q3-3-2:
+  description: Please show the RHEA IDs of chemical reactions in which the D-tryptophan molecule participates.
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q3-4-2:
+  description: D-tryptophan分子が関与する反応のRHEA IDを教えてください
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q3-5-2:
+  description: D-tryptophan分子を含む反応のRHEA識別子は何ですか？
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q3-6-2:
+  description: D-tryptophan分子が参加する化学反応のRHEA IDを示してください。
+  variables: [Reaction]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q4-1-1:
+  description: What is the RHEA ID for the reaction corresponding to EC number uniprot_enzyme:7.1.3.1
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q4-2-1:
+  description: Please tell me the RHEA identifier for the reaction associated with enzyme number uniprot_enzyme:7.1.3.1.
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q4-3-1:
+  description: What is the RHEA number for the reaction catalyzed by the enzyme with EC number uniprot_enzyme:7.1.3.1?
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q4-4-1:
+  description: EC番号uniprot_enzyme:7.1.3.1に対応する反応のRHEA IDは何ですか
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q4-5-1:
+  description: 酵素番号uniprot_enzyme:7.1.3.1に関連する反応のRHEA識別子を教えてください。
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q4-6-1:
+  description: uniprot_enzyme:7.1.3.1のEC番号を持つ酵素が触媒する反応のRHEA番号は何ですか？
+  variables: [Reaction]
+  parameters:
+    reaction_ec_number: "uniprot_enzyme:7.1.3.1"
+  options:
+    distinct: true
+
+Q5-1-1:
+  description: Is the reaction of rhea:10024 chemically balanced?
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q5-2-1:
+  description: Is the chemical equation for rhea:10024 stable?
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q5-3-1:
+  description: Is the reaction shown in rhea:10024 stoichiometrically correct?
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q5-4-1:
+  description: rhea:10024の反応は化学的にバランスが取れていますか
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q5-5-1:
+  description: rhea:10024の化学反応式は安定していますか？
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q5-6-1:
+  description: rhea:10024に示される反応は化学量論的に正しいですか？
+  variables: [reaction_is_chemically_balanced]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-1-1:
+  description: Is the reaction of rhea:10024 a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-2-1:
+  description: Does rhea:10024 involve the movement of substances?
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-3-1:
+  description: Is the reaction of rhea:10024 involved in the transport of molecules?
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-4-1:
+  description: rhea:10024の反応は輸送反応ですか
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-5-1:
+  description: rhea:10024は物質の移動を含む反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q6-6-1:
+  description: rhea:10024の反応は分子の輸送に関与していますか？
+  variables: [reaction_is_transport]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-1-1:
+  description: Please tell me the status of the reaction of rhea:10024
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-2-1:
+  description: What is the current approval state of the reaction of rhea:10024?
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-3-1:
+  description: Please inform me about the verification status of the reaction related to rhea:10024.
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-4-1:
+  description: rhea:10024の反応のステータスを教えてください
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-5-1:
+  description: rhea:10024の反応の現在の承認状態は何ですか？
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q7-6-1:
+  description: rhea:10024に関連する反応の検証状況を教えてください。
+  variables: [reaction_status]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-1-1:
+  description: Please tell me the ID of the bidirectional reaction for rhea:10024
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-2-1:
+  description: What is the RHEA identifier for the reverse reaction of rhea:10024?
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-3-1:
+  description: Please show the ID of the reversible reaction corresponding to rhea:10024.
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-4-1:
+  description: rhea:10024の反応の双方向反応のIDを教えてください
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-5-1:
+  description: rhea:10024の逆反応のRHEA識別子は何ですか？
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q8-6-1:
+  description: rhea:10024に対応する可逆反応のIDを示してください。
+  variables: [reaction_bidirectional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-1-1:
+  description: Please tell me the PubMed ID of the paper related to the reaction of rhea:10024
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-2-1:
+  description: What is the PubMed reference number for the study describing the reaction of rhea:10024?
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-3-1:
+  description: Please list the PubMed identifiers of scientific literature related to rhea:10024.
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-4-1:
+  description: rhea:10024の反応に関連する論文のPubMed IDを教えてください
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-5-1:
+  description: rhea:10024の反応を記述している研究のPubMed参照番号は何ですか？
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q9-6-1:
+  description: rhea:10024に関連する科学文献のPubMed識別子をリストアップしてください。
+  variables: [reaction_citation]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q10-1-1:
+  description: What is the net charge of this obo:CHEBI_15377 molecule?
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q10-2-1:
+  description: Is the net charge of this obo:CHEBI_15377 molecule positive, negative, or neutral?
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q10-3-1:
+  description: What is the overall electric charge of this obo:CHEBI_15377 ?
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q10-4-1:
+  description: このobo:CHEBI_15377 分子の正味の電荷は何ですか？
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q10-5-1:
+  description: このobo:CHEBI_15377 分子の正味の電荷は正、負、それとも中性ですか？
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q10-6-1:
+  description: このobo:CHEBI_15377 の全体的な電気的電荷は何ですか？
+  variables: [compound_charge]
+  parameters:
+    compound_chebi: obo:CHEBI_15377
+  options:
+    distinct: true
+
+Q11-1-1:
+  description: Please tell me the names and charges of all the molecules included in the reaction.
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q11-2-1:
+  description: Is the net charge of each molecule involved in rhea:10024 reaction positive, negative, or neutral? Please tell me along with the molecule names.
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q11-3-1:
+  description: Could you please provide the charges of all the molecules involved in rhea:10024 reaction, along with their names?
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q11-4-1:
+  description: rhea:10024反応に含まれるすべての分子名と分子の電荷を教えてください。
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q11-5-1:
+  description: rhea:10024反応に関与する各分子の正味の電荷は正、負、それとも中性ですか、分子名とともに教えてください？
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q11-6-1:
+  description: rhea:10024反応に関与するすべての分子の電荷を分子名とともに教えていただけますか？
+  variables: [compound_charge, compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-1-1:
+  description: Please tell me the names of all the molecules included in the reaction.
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-2-1:
+  description: Please tell me the molecule names involved in rhea:10024 reaction.
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-3-1:
+  description: Could you please provide names of all the molecules involved in rhea:10024 reaction?
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-4-1:
+  description: rhea:10024反応に含まれるすべての分子名を教えてください。
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-5-1:
+  description: rhea:10024反応に関与する分子名を教えてください？
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q12-6-1:
+  description: rhea:10024反応に関与するすべての分子の分子名を教えていただけますか？
+  variables: [compound_name]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q13-1-1:
+  description: What is the EC number of rhea:20105 reaction corresponding to RHEA ID rhea:20105?
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q13-2-1:
+  description: Could you tell me the enzyme number associated with RHEA identifier rhea:20105?
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q13-3-1:
+  description: What is the EC number of the enzyme that catalyzes the reaction with RHEA number rhea:20105?
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q13-4-1:
+  description: RHEA ID rhea:20105に対応する反応のEC番号は何ですか？
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q13-5-1:
+  description: RHEA識別子rhea:20105に関連する酵素番号を教えてください。
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q13-6-1:
+  description: rhea:20105のRHEA番号を持つ反応を触媒する酵素のEC番号は何ですか？
+  variables: [reaction_ec_number]
+  parameters:
+    Reaction: rhea:20105
+  options:
+    distinct: true
+
+Q14-1-1:
+  description: What is the Chebi ID of the molecule D-tryptophan?
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q14-2-1:
+  description: Please tell me the Chebi ID of the molecule called D-tryptophan.
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q14-3-1:
+  description: What is the ID corresponding to the molecule D-tryptophan?
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q14-4-1:
+  description: D-tryptophan分子のChebi IDはなんですか？
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q14-5-1:
+  description: D-tryptophanという分子のChebi IDを教えてください。
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q14-6-1:
+  description: D-tryptophanの分子に対応するIDは何ですか？
+  variables: [compound_chebi]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q15-1-1:
+  description: Please tell me the ID of the directional reaction for rhea:10024
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q15-2-1:
+  description: What are the RHEA identifiers for the directional reactions of rhea:10024?
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q15-3-1:
+  description: Please show the IDs of the directional reactions corresponding to rhea:10024.
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q15-4-1:
+  description: rhea:10024の反応の順方向反応のIDを教えてください
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q15-5-1:
+  description:  rhea:10024の順方向反応のRHEA識別子は何ですか？
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q15-6-1:
+  description:  rhea:10024に対応する順方向反応のIDを示してください。
+  variables: [reaction_directional_reaction]
+  parameters:
+    Reaction: rhea:10024
+  options:
+    distinct: true
+
+Q16-1-1:
+  description: Please tell me the reaction equation of the reaction involving the L-lysyl-[histone] molecule.
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-2-1:
+  description: What is the reaction equation of the reaction that includes the L-lysyl-[histone] molecule?
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-3-1:
+  description: Please show the reaction equation of the chemical reaction in which the L-lysyl-[histone] molecule participates.
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-4-1:
+  description: L-lysyl-[histone]分子が関与する反応の反応式を教えてください。
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-5-1:
+  description: L-lysyl-[histone]分子を含む反応の反応式は何ですか？
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応の反応式を示してください。
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q16-1-2:
+  description: Please tell me the reaction equation of the reaction involving the D-tryptophan molecule.
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q16-2-2:
+  description: What is the reaction equation of the reaction that includes the D-tryptophan molecule?
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q16-3-2:
+  description: Please show the reaction equation of the chemical reaction in which the D-tryptophan molecule participates.
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q16-4-2:
+  description: D-tryptophan分子が関与する反応の反応式を教えてください。
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q16-5-2:
+  description: D-tryptophan分子を含む反応の反応式は何ですか？
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q16-6-2:
+  description: D-tryptophan分子が参加する化学反応の反応式を示してください。
+  variables: [reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-1-1:
+  description: Is the reaction involving the L-lysyl-[histone] molecule a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-2-1:
+  description: Is the reaction that includes the L-lysyl-[histone] molecule a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-3-1:
+  description: Is the chemical reaction in which the L-lysyl-[histone] molecule participates a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-4-1:
+  description: L-lysyl-[histone]分子が関与する反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-5-1:
+  description: L-lysyl-[histone]分子を含む反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q17-1-2:
+  description: Is the reaction involving the D-tryptophan molecule a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-2-2:
+  description: Is the reaction that includes the D-tryptophan molecule a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-3-2:
+  description: Is the chemical reaction in which the D-tryptophan molecule participates a transport reaction?
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-4-2:
+  description: D-tryptophan分子が関与する反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-5-2:
+  description: D-tryptophan分子を含む反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q17-6-2:
+  description: D-tryptophan分子が参加する化学反応は輸送反応ですか？
+  variables: [reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-1-1:
+  description: Please tell me the references for the reaction involving the L-lysyl-[histone] molecule.
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-2-1:
+  description: What are the references for the reaction that includes the L-lysyl-[histone] molecule?
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-3-1:
+  description: Please provide the references for the chemical reaction in which the L-lysyl-[histone] molecule participates.
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-4-1:
+  description: L-lysyl-[histone]分子が関与する反応の参考文献を教えてください。
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-5-1:
+  description: L-lysyl-[histone]分子を含む反応の参考文献は何ですか？
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応の参考文献を示してください。
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q18-1-2:
+  description: Please tell me the references for the reaction involving the D-tryptophan molecule.
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-2-2:
+  description: What are the references for the reaction that includes the D-tryptophan molecule?
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-3-2:
+  description: Please provide the references for the chemical reaction in which the D-tryptophan molecule participates.
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-4-2:
+  description: D-tryptophan分子が関与する反応の参考文献を教えてください。
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-5-2:
+  description: D-tryptophan分子を含む反応の参考文献は何ですか？
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q18-6-2:
+  description: D-tryptophan分子が参加する化学反応の参考文献を示してください。
+  variables: [reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-1-1:
+  description: Please tell me the RHEA ID and the reaction equation of the reaction involving the L-lysyl-[histone] molecule.
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-2-1:
+  description: What is the RHEA identifier and reaction equation of the reaction that includes the L-lysyl-[histone] molecule?
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-3-1:
+  description: Please provide the RHEA ID and reaction equation of the chemical reaction in which the L-lysyl-[histone] molecule participates.
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-4-1:
+  description: L-lysyl-[histone]分子が関与する反応のRHEA IDと反応式を教えてください。
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-5-1:
+  description: L-lysyl-[histone]分子を含む反応のRHEA識別子と反応式は何ですか？
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応のRHEA IDと反応式を示してください。
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q19-1-2:
+  description: Please tell me the RHEA ID and the reaction equation of the reaction involving the D-tryptophan molecule.
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-2-2:
+  description: What is the RHEA identifier and reaction equation of the reaction that includes the D-tryptophan molecule?
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-3-2:
+  description: Please provide the RHEA ID and reaction equation of the chemical reaction in which the D-tryptophan molecule participates.
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-4-2:
+  description: D-tryptophan分子が関与する反応のRHEA IDと反応式を教えてください。
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-5-2:
+  description: D-tryptophan分子を含む反応のRHEA識別子と反応式は何ですか？
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q19-6-2:
+  description: D-tryptophan分子が参加する化学反応のRHEA IDと反応式を示してください。
+  variables: [Reaction, reaction_equation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-1-1:
+  description: Please tell me the RHEA ID of the reaction involving the L-lysyl-[histone] molecule, and whether it is a transport reaction.
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-2-1:
+  description: What is the RHEA identifier of the reaction that includes the L-lysyl-[histone] molecule, and is it a transport reaction?
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-3-1:
+  description: Please provide the RHEA ID of the chemical reaction in which the L-lysyl-[histone] molecule participates, and indicate whether it is a transport reaction.
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-4-1:
+  description: L-lysyl-[histone]分子が関与する反応のRHEA IDと、それが輸送反応かどうかを教えてください。
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-5-1:
+  description: L-lysyl-[histone]分子を含む反応のRHEA識別子と、それが輸送反応かどうかは何ですか？
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応のRHEA IDと、それが輸送反応かどうかを示してください。
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q20-1-2:
+  description: Please tell me the RHEA ID of the reaction involving the D-tryptophan molecule, and whether it is a transport reaction.
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-2-2:
+  description: What is the RHEA identifier of the reaction that includes the D-tryptophan molecule, and is it a transport reaction?
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-3-2:
+  description: Please provide the RHEA ID of the chemical reaction in which the D-tryptophan molecule participates, and indicate whether it is a transport reaction.
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-4-2:
+  description: D-tryptophan分子が関与する反応のRHEA IDと、それが輸送反応かどうかを教えてください。
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-5-2:
+  description: D-tryptophan分子を含む反応のRHEA識別子と、それが輸送反応かどうかは何ですか？
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q20-6-2:
+  description: D-tryptophan分子が参加する化学反応のRHEA IDと、それが輸送反応かどうかを示してください。
+  variables: [Reaction, reaction_is_transport]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-1-1:
+  description: Please tell me the RHEA ID and references for the reactions involving the L-lysyl-[histone] molecule.
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-2-1:
+  description: What are the RHEA identifiers and references for the reactions that include the L-lysyl-[histone] molecule?
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-3-1:
+  description: Please provide the RHEA ID and references of the chemical reactions in which the L-lysyl-[histone] molecule participates.
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-4-1:
+  description: L-lysyl-[histone]分子が関与する反応のRHEA IDと参考文献を教えてください。
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-5-1:
+  description: L-lysyl-[histone]分子を含む反応のRHEA識別子および参考文献は何ですか？
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-6-1:
+  description: L-lysyl-[histone]分子が参加する化学反応のRHEA IDと参考文献を示してください。
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "L-lysyl-[histone]"
+  options:
+    distinct: true
+
+Q21-1-2:
+  description: Please tell me the RHEA ID and references for the reactions involving the D-tryptophan molecule.
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-2-2:
+  description: What are the RHEA identifiers and references for the reactions that include the D-tryptophan molecule?
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-3-2:
+  description: Please provide the RHEA ID and references of the chemical reactions in which the D-tryptophan molecule participates.
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-4-2:
+  description: D-tryptophan分子が関与する反応のRHEA IDと参考文献を教えてください。
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-5-2:
+  description: D-tryptophan分子を含む反応のRHEA識別子および参考文献は何ですか？
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+
+Q21-6-2:
+  description: D-tryptophan分子が参加する化学反応のRHEA IDと参考文献を示してください。
+  variables: [Reaction, reaction_citation]
+  parameters:
+    compound_name: "D-tryptophan"
+  options:
+    distinct: true
+

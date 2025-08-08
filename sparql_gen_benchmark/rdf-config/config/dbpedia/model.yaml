@@ -1,0 +1,765 @@
+- Thing res:Irish_Cave_Rescue_Organisation:
+  - a: owl:Thing
+  - dbo:abbreviation:
+    - abbreviation: "ICRO"
+  - dbp:employees:
+    - employees: 15629
+  - dbp:programme:
+    - programme: res:Soyuz_programme
+  - dbp:borders:
+    - borders: Country
+
+- Book:
+  - a: dbo:Book
+  - dbo:author:
+    - book_author: Person
+  - dbo:publisher:
+    - book_publisher: res:Viking_Press
+  - dbp:releaseDate:
+    - book_release_date: '"1973-08-01"^^xsd:date'
+  - dbo:publicationDate:
+    - book_publication_date: '"1973-08-01"^^xsd:date'
+  - dbo:numberOfPages:
+    - book_number_of_pages: 300
+  - dbo:literaryGenre:
+    - literary_genre: res:Autobiography
+
+- Magazine:
+  - a: dbo:Magazine
+  - dbp:editor:
+    - editor: '"Sandi Duncan"^^rdf:langString'
+
+- Game:
+  - a: dbo:Game
+  - dbo:publisher:
+    - game_publisher: res:Mean_Hamster_Software
+  - rdfs:label:
+    - game_label: '"Battle Chess"@en'
+
+- VdideoGame:
+  - a: dbo:VideoGame
+  - dbo:publisher:
+    - video_game_publisher: res:Mean_Hamster_Software
+  - rdfs:label:
+    - video_game_label: '"Battle Chess"@en'
+  - dbo:developer:
+    - video_game_developer: Company
+
+- ActionRolePlayingVideoGames:
+  - dct:subject: dbc:Action_role-playing_video_games
+  - dbp:ign:
+    - ign_score: '"9.5"^^xsd:double'
+
+- Software:
+  - a: dbo:Software
+  - dbo:developer:
+    - software_developer: Company
+
+- Company:
+  - a: dbo:Company
+  - rdfs:label:
+    - company_label: '"Slack Technologies"@en'
+  - dbo:owner:
+    - company_owner_company: Company
+    - company_owner_organisation: Organisation
+    - company_owner_personn: Person
+  - dbo:foundationPlace:
+    - foundation_place: res:California
+  - dbo:product:
+    - product: res:Slack_(software)
+  - dbo:industry:
+    - industory: res:Electronics
+  - dbo:location:
+    - location: res:India
+  - dbo:headquarter:
+    - headquarter: res:India
+  - dbo:locationCity:
+    - location_city: res:India
+  - dbo:numberOfEmployees:
+    - number_of_employees: 1400000
+  - dbo:numEmployees: #これはない方がいい more than 200とかがあり、　?n>1000でTrueとなると思う
+    - employees_number: 1400000
+  - dbo:founder:
+    - founder: Person
+  - dbo:netIncome:
+    - net_income: '"5.3394E10"^^dtype:usDollar'
+  - dbo:foundedBy:
+    - founded_by: Person
+  - dbo:numberOfLocations:
+    - number_of_locations: 9600
+
+
+- ProgrammingLanguage:
+  - a: dbo:ProgrammingLanguage
+  - dbo:influencedBy:
+    - influenced_by: res:Perl
+
+- TelevisionShow dbr:Friends:
+ - a: dbo:TelevisionShow
+ - dbo:starring:
+  - starring: res:Neil_Patrick_Harris
+ - dbo:creator:
+  - creator: res:Walt_Disney
+ - dbo:numberOfEpisodes:
+  - number_of_episodes: 10
+ - dbo:composer:
+  - composer: res:Ramin_Djawadi
+ - dbp:author:
+  - author: Person
+- dbo:presenter:
+  - presenter: Person
+- dbo:completionDate:
+  - completion_date: '"2004-05-06"^^xsd:date'
+
+- TelevisionEpisode:
+  - a: dbo:TelevisionEpisode
+  - dbo:seasonNumber:
+    - season_number: 1
+  - dbo:series:
+    - series: TelevisionShow
+
+- Film:
+  - a: dbo:Film
+  - dbo:country:
+    - country: Country
+  - dbo:starring:
+    - starring: Person # res:Brad_Pitt
+  - dbo:director:
+    - director: res:Guy_Ritchie
+  - dbo:producer:
+    - producer: res:Nia_Dinata
+  - dbo:budget:
+    - budget: '"5.2E7"^^dtype:usDollar'
+  - dbo:releaseDate:
+    - date: '"1966-10-14"^^xsd:date'
+  - dbo:runtime:
+    - runtime: '"120.0"^^xsd:double'
+  - dbo:musicComposer:
+    - music_composer: Person
+
+- Band res:Queens_of_the_Stone_Age:
+  - a: dbo:Band
+  - dbo:alias:
+    - alias: '"Gamma Ray (1996–1997)"@en'
+  - dbo:genre:
+    - genre: res:Metalcore
+  - dbo:hometown:
+    - hometown: Country
+  - dbo:bandMember:
+    - band_member: Person
+
+- RecordLabel:
+  - a: dbo:RecordLabel
+  - genre:
+    - genre: res:Grunge
+  - dbo:country:
+    - country: Country
+  
+- Album:
+  - a:
+    - dbo:album
+    - dbo:Album
+  - rdf:lable:
+    - label: '"Last Christmas"@en'
+  - dbo:artist:
+    - artist: res:Elvis_Presley
+  - releaseDate:
+    - date: '"1969-11-10"^^xsd:date'
+  - dbo:recordLabel:
+    - record_label: res:RCA_Records
+  - dbp:writer:
+    - writer: '"Gilmour"^^rdf:langString'
+
+- Song:
+  - a: dbo:Song
+  - dbo:artist:
+    - artist: res:Bruce_Springsteen
+  - dbo:releaseDate:
+    - date: '"1978-05-23"^^xsd:date'
+
+- Single:
+  - a: dbo:Single
+  - dbo:writer:
+    - writer: res:Don_Felder
+  - musicalArtist:
+    - artist: Person
+  - dbo:bSide:
+    - b_side: "Daytime Dilemma (Dangers of Love)"
+
+- Weapon:
+  - a: dbo:Weapon
+  - dbp:designer:
+    - designer: res:Uziel_Gal
+
+- Museum:
+  - a: dbo:Museum
+  - dbo:location:
+    - location: res:New_York_City
+  - dbo:numberOfVisitors:
+    - number_of_visitors: 5240000
+
+- Cave:
+  - a: dbo:Cave
+  - dbo:location:
+    - location: Country
+  - dbp:entranceCount:
+    - entrance_count: 3
+
+- Lake:
+  - a: dbo:Lake
+  - dbo:inflow:
+    - inflow: River
+  - dbo:country:
+    - country_of_lake: Country
+  - dbo:maximumDepth:
+    - maximum_depth: '"12.192000000000000171"^^xsd:double '
+  - dbo:areaTotal:
+    - area_total: '"31722000000.0"^^xsd:double'
+
+- Mountain:
+  - a: dbo:Mountain
+  - dbo:locatedInArea:
+    - located_in_area: Country
+  - dbo:elevation:
+    - elevation: '"8848.86"^^xsd:double'
+  - dbo:mountainRange:
+    - mountain_range: res:Ore_Mountains
+  - dbo:firstAscentPerson:
+    - first_ascent_person: Person
+
+- River res:Isar:
+  - a: dbo:River
+  - dbo:city:
+    - city_river_flow: City
+  - dbo:sourceCountry:
+    - source_country: Country
+  - dbo:length:
+    - length: '"4248000.0"^^xsd:double'
+
+- BodyOfWater:
+  - a: dbo:BodyOfWater
+  - dbo:length:
+    - length: '"4248000.0"^^xsd:double'
+
+- Island:
+  - a: dbo:Island
+  - dbo:locatedInArea:
+    - located_in_area: Country
+  - dbo:areaTotal:
+    - area_total: '"1000000.0"^^xsd:double'
+  - dbo:country:
+    - country: Country
+
+- Place:
+  - a: dbo:Place
+  - dbo:mayor:
+    - mayor: Person
+  - dbp:governor:
+    - governor: Person
+  - dbo:areaTotal:
+    - area_total: '"34084130000.0"^^xsd:double'
+  - dbp:beginningDate:
+    - beginning_date: '"1886-10-28"^^xsd:date'
+  - dbp:highest:
+    - highest: Mountain
+  - dbo:location:
+    - location: Place
+  - dbo:country:
+    - country: Country
+  - dbo:timeZone:
+    - time_zone: res:Time_in_Chile
+  - dbp:leaderParty:
+    - leader_party: Organization
+  - dbp:largestmetro:
+    - largest_metro: Place
+
+
+- Settlement:
+  - a: dbo:Settlement
+  - dbp:admittancedate:
+    - admittance_date: '"1905-09-01"^^xsd:date'
+  
+- Country res:Germany:
+  - a: dbo:Country
+  - dbo:officialLanguage:
+    - official_language: Language
+  - dbo:language:
+    - language: Language
+  - dbp:accessioneudate:
+    - accession_eu_date: '"1957-03-25"^^xsd:date'
+  - dbo:currency:
+    - currency: res:Euro
+  - dbp:currencyCode:
+    - currency_code: '"EUR"@en'
+  - dbo:largestCity:
+    - largest_city: res:Berlin
+  - dbo:capital:
+    - capital_city: City
+    - capital_place: Place
+  - dbo:governmentType:
+    - country_government_type: res:Federalism
+  - dbo:leader:
+    - leader: Person
+  -  dbo:leaderTitle:
+    - leader_title: '"President"@en'
+  - dbo:areaTotal:
+    - area_total: '"357022.0"^^xsd:double'
+  - dbp:populationDensityRank:
+    - population_density_rank: 1
+  - dbo:dissolutionDate:
+    - dissolution_date: '"1644-04-25"^^xsd:date'
+  - dbo:foundingDate:
+    - founding_date: '"1871-01-18"^^xsd:date'
+  - dbo:ethnicGroup:
+    - ethnic_group: res:Slovenes		
+  - dbo:leader:
+    - leader: Person
+  
+- Language:
+  - a: dbo:Language
+  - dbo:spokenIn:
+    - spoken_in: Country
+  - dbo:languageFamily:
+    - language_family: Language
+
+- States res:Illinois:
+  - a: dbo:Place
+  - dbp:densityrank:
+    - density_rank: 1
+  - dbp:borderingstates:
+    - bordering_states: States
+  
+- States_of_Mexico:
+  - a: res:States_of_Mexico
+
+- City:
+  - a: dbo:City
+  - dbo:populationTotal:
+    - population_total_of_city: 1000000
+  - dbo:leaderName:
+    - leader_name_of_city: Person
+  - dbo:governmentType:
+    - government_type_city: res:Borough_(New_York_City)
+  - dbo:country:
+    - country_of_city: Country
+  - dbo:isPartOf:
+    - is_part_of: Country, State
+
+- Town:
+  - a: dbo:Town
+
+- Person:
+  - a: 
+    - dbo:Person
+    - dbo:Writer
+    - dbo:Monarch
+    - dbo:BasketballPlayer
+    - dbo:Swimmer
+    - dbo:Astronaut
+    - dbo:President
+    - dbo:SoccerPlayer
+    - dbo:BasketballPlayer
+    - dbo:ChessPlayer
+    - dbo:Pope
+    - dbo:DartsPlayer
+    - dbo:Royalty
+    - dbo:FormulaOneRacer
+  - dbo:occupation:
+    - dbo:Poet
+    - dbo:Bandleader
+    - res:Actor
+    - res:Musician
+  - dbo:nationality:
+    - nationality: Country
+  - dbo:successor:
+    - successor: Person
+  - dbo:profession:
+    - profession: dbo:Politician, res:Chemist
+  - dbo:vicePresident:
+    - vice_president: Person
+  - dbo:birthPlace:
+    - birth_place_country: Country
+    - birth_place_city: City
+  - dbo:deathPlace:
+    - death_place_country: Country
+    - death_place_city: City
+    - death_place_town: Town
+  - dbo:birthDate:
+    - birth_date: '"1978-01-01"^^xsd:date'
+  - dbo:deathDate:
+    - death_date: '"2019-01-01"^^xsd:date'
+  - dbo:birthYear:
+    - birth_year: '"1978"^^xsd:gYear'
+  - dbo:deathCause:
+    - death_cause: res:Cancer
+  - dbo:birthName:
+    - birth_name: "Mark Twain"
+  - dbo:child:
+    - child: Person
+    - dbo:spouse:
+    - spouse: Person
+  - dbp:children:
+    - children: 9
+  - dbo:height:
+    - height: '"2.0200000000000000178"^^xsd:double'
+  - dbo:weigh:
+    - weight: '"2.0200000000000000178"^^xsd:double'
+  - dbo:almaMater:
+    - school: School
+  - dbp:education:
+    - education: School
+  - dbo:field:
+    - field: res:Oceanography
+  - dbo:team:
+    - team: res:Atlanta_Falcons
+  - dbo:award:
+    - award: res:Nobel_Prize_in_Literature
+  - dbo:instrument:
+    - instrument: res:Trumpet
+  - dbo:genre:
+    - genre: res:Rock_music
+  - dbo:portrayer:
+    - portrayer: res:Brad_Pitt
+  - dbo:residence:
+    - residence: City
+  - dbp:highlights:
+    - highlights: '"* ABA League champion \n* Next Generation Tournament MVP"^^rdf:langString'
+  - foaf:surname:
+    - surname: ''Baldwin'@en'
+  - dbp:title:
+    - title: res:King_of_Rome
+  - dbp:conviction:
+    - conviction: res:Death_of_John_Lennon
+  - dbp:breed:
+    - breed: res:German_Shepherd
+  - dbo:team:
+    - team: res:Real_Madrid_C.F. #サッカーチーム以外もありそう
+  - dbo:restingPlace:
+    - resting_place: Place
+  - dbo:activeYearsEndDate:
+    - active_years_end_date: '"2019-01-01"^^xsd:date'
+  - dbo:battle:
+    - battle: Event
+  - dbo:religion:
+    - religion: res:Methodism
+  - dbo:doctoralAdvisor:
+    - doctoral_advisor: Person
+  - dbo:parent:
+    - parent: Person
+  - dbo:party:
+    - party: res:Socialist_Party_(France)
+  - dbo:influenced:
+    - influenced: Person
+  - dbo:mission:
+    - mission: res:Apollo_14 # dbo:Work
+  - dbo:movement:
+    - movement: res:Cubism
+  - dbp:type:
+    - type: res:European_Space_Agency
+  - dbp:years:
+    - years: 1978
+  - dbo:office:
+    - office: "Chancellor of Germany"
+  - dbp:burialPlace:
+    - burial_place: City
+  - dbo:instrument:
+    - instrument: Thing
+  - dbp:name:
+    - name: '"John"^^rdf:langString'
+  - dbo:races:
+    - races: 308
+
+- Scientist:
+  - a: dbo:Scientist
+  - dbo:field:
+    - field: res:Oceanography
+  -  dbo:knownFor:
+    - known_for: res:Nobel_Peace_Prize
+  - dbo:award:
+    - award: res:Nobel_Prize_in_Physics
+
+- ArchitecturalStructure:
+  - a: dbo:ArchitecturalStructure
+  - dbo:hight:
+    - height: '"106.07040000000000646"^^xsd:double'
+
+- ComicsCharacter:
+  - a: dbo:ComicsCharacter
+  - dbo:creator:
+    - creator: res:Peter_Mayhew
+
+- FictionalCharacter res:Chewbacca:
+  - a: dbo:FictionalCharacter
+  - dbo:portrayer:
+    - portrayer: 
+
+- Occupation:
+  - a:
+    - dbo:Poet
+    - res:Actor
+    - dbo:Bandleader
+
+- Profession:
+  - a:
+    - dbo:Politician
+    - res:Chemist
+
+- School:
+  - a::
+    - dbo:University
+  - dbo:city:
+    - city: City
+  - dbo:country:
+    - country: Country
+  - dbo:state
+    - state: States
+  - dbo:officialSchoolColour:
+    - official_school_colour: "Oxford blue"
+  
+- Organisation:
+  - a: dbo:Organisation
+  - dbo:location:
+    - location: res:California
+  - dbp:locationCountry:
+    - location_country: res:Australia
+  - dbo:foundedBy:
+    - founded_by: Person
+  - dbo:formationYear:
+    - formation_year: '"1999"^^xsd:gYear'
+  - dbo:foundingYear:
+    - founding_year: '"1999"^^xsd:gYear'
+  - dbp:foundation:
+    - foundation: '"1999-01-01"^^xsd:date'
+  - dbp:formation:
+    - formation: '"1999-01-01"^^xsd:date'
+  - dbo:leader:
+    - leader_of_organisation: Person
+  - dbo:headquarter:
+    - headquarter: res:India:
+
+
+- NonprofitOrganization:
+  - a: res:Nonprofit_organization
+  - dbo:location:
+    - location: Country
+  - dbo:locationCountry
+    - location_country: Country
+
+- SoccerClub:
+  - a: dbo:SoccerClub
+  - dbo:ground:
+    - ground: res:Old_Trafford
+  - dbo:league:
+    - league: res:Bundesliga
+  - dbp:fifaMin:
+    - fifa_min: 22
+  - dbp:founded:
+    - founded: '"1948-03-17"^^xsd:date'
+  - dbo:manager:
+    - manager: Person
+
+- Stadium:
+  - a: dbo:Stadium
+  - dbo:location:
+    - location: Country
+  - dbo:seatingCapacity:
+    - seating_capacity: 100000
+  
+- BaseballTeam res:Boston_Red_Sox:
+  - a: dbo:BaseballTeam
+  - dbp:ballpark:
+    - ballpark: res:Fenway_Park	
+
+- Food res:Carrot_cake:
+  - a: dbo:Food
+  - dbo:ingredient:
+    - ingredient: Food
+  - dbp:carbs:
+    - carbs: '"10.0"^^dtype:gram'
+
+- Building res:Burj_Khalifa:
+  - a: dbo:Building
+  - dbo:architect:
+    - architect: Person
+  - dbo:architecturalStyle:
+    - architectural_style: res:English_Gothic_architecture
+  - dbo:location:
+    - location: City
+  - dbo:floorCount
+    - floor_count: 10
+
+- Bridge:
+  - a: dbo:Bridge
+  - dbo:crosses:
+    - crosses: River
+  - dbo:architect:
+    - architect: Person
+  - dbo:mainspan:
+    - main_span: '"4050.0"^^xsd:double'
+
+- Planet:
+  - a: dbo:Planet
+  - dbo:discoverer:
+    - discoverer: Person
+  - dbp:satelliteOf:
+    - satellite_of: Planet
+  - dbo:mass:
+    - mass: '"1100.0"^^xsd:double'
+
+
+- Holiday:
+  - a: dbo:Holiday
+  - dbp:date:
+    - date: '"--10-31"^^xsd:gMonthDay'
+  - dbo:country:
+    - country: Country
+  
+- Airline:
+  - a: dbo:Airline
+  - dbo:alliance:
+    - alliance: res:SkyTeam
+  - dbo:Alliance:
+    - Alliance: res:SkyTeam
+  - dbo:targetAirport:
+    - target_airport: City
+  - dbo:subsidiary:
+    - subsidiary: Airline
+  - dbo:targetAirport:
+    - target_airport: Airport
+
+- Airport:
+  - a: dbo:Airport
+  - dbo:elevation:
+    - elevation: '"44.799999999999997158"^^xsd:double'
+
+- WineRegion:
+  - a: dbo:WineRegion
+  - dbo:growingGrape:
+    - growing_grape: Grape
+  - dbo:wineProduced:
+    - wine_produced: dbo:Sparkling_wine
+  - dbo:location:
+    - location: Country
+  
+- Grape:
+  - a: dbo:Grape
+  - dbo:wineRegion:
+    - wine_region: WineRegion
+
+- Beer:
+  - a: dbo:Beer
+  - dbo:origin:
+    - origin: res:Beer_in_Ireland
+
+- Beverage:
+  - a: dbo:Beverage
+  - dbo:manufacturer:
+    - manufacturer: Company
+
+- Brewery:
+  - a: dbo:Brewery
+  - dbo:location:
+    - location: Country
+
+- Event:
+  - a: dbo:Event
+  - dbp:date:
+    - date: '"2019-01-01"^^xsd:date'
+
+- WorldHeritageSite:
+  - a: dbo:WorldHeritageSite
+  - dbp:year:
+    - year: '"2013"^^xsd:integer'
+
+- Volcano:
+  - a: dbo:Volcano
+  - dbo:locatedInArea:
+    - located_in_area: Country
+  - dbo:eruptionYear:
+    - eruption_year: '"2019"^^xsd:gYear'
+
+- Ship res:RMS_Titanic:
+  - a: dbo:Ship
+  - dbo:completionDate:
+    - completion_date: '"1912-04-02"^^xsd:date'
+  - dbo:shipNamesake:
+    - ship_namesake: Person
+  
+- MilitaryConflict:
+  - a: dbo:MilitaryConflict
+  - dbo:isPartOfMilitaryConflict:
+    - is_part_of_military_conflict: MilitaryConflict
+  - dbo:result:
+    - result: '"Victory"@en'
+  - dbo:date:
+    - date: '"1487-06-16"^^xsd:date'
+
+- RapidTransit:
+  - a: dbr:Rapid_transit
+  - dbo:openingYear:
+    - opening_year: '"1787"^^xsd:gYear'
+  - dbo:location:
+    - location: City
+
+- Animal res:Elephant:
+  - a: dbo:Animal
+  - dbp:species:
+    - species: '"Proboscidea"^^rdf:langString'
+  - dbo:class: res:Mammalia
+
+- Plant:
+  - a: dbo:Plant
+  - dbo:origin:
+    - origin: Place
+
+- Musical:
+  - a: dbo:Musical
+  - dbo:musicBy:
+    - music_by: Person
+
+- Library:
+  - a: dbo:Library
+  - dbp:established:
+    - established: '"15"^^xsd:integer'
+
+- Protein res:Proinsulin:
+  - a: dbo:Protein
+
+- SpaceStation:
+  - a: dbo:SpaceStation
+  - dbp:launchPad:
+    - launch_pad: res:Baikonur_Cosmodrome
+
+- LaunchPad:
+  - a: dbo:LaunchPad
+  - dbo:operator:
+    - operator: Organization
+
+- Rocket:
+  - a: dbo:Rocket
+  - dbo:launchSite:
+    - launch_site: res:Baikonur_Cosmodrome
+
+- Automobile:
+  - a: dbo:Automobile
+  - dbo:assembly:
+    - assembly: Country
+  - dbo:manufacturer:
+    - manufacturer: Company
+
+- Road res:Chile_Route_68:
+  - a: dbo:Road
+  - dbo:routeEnd:
+    - route_end: City
+
+- Hospital:
+  - a: dbo:Hospital
+  - dbp:speciality:
+    - speciality: res:Cancer
+
+- PoliticalParty:
+  - a: dbo:PoliticalParty
+  - dbo:country:
+    - country: Country
+  - dbo:ideology:
+    - ideology: res:Pro-Europeanism

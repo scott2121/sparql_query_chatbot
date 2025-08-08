@@ -1,0 +1,816 @@
+Q1-1-1:
+  description: What is the expression level of the ACE2 gene, and what is its UniProt ID?
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q1-2-1:
+  description: What is the expression level of the ACE2 gene, and could you provide its UniProt ID?
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q1-3-1:
+  description: Could you tell me the expression level of the ACE2 gene and its corresponding UniProt ID?
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q1-4-1:
+  description: ACE2 遺伝子の発現レベルはどのくらいですか？また、そのUniProt IDは何ですか？
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q1-5-1:
+  description: ACE2 遺伝子の発現レベルはどのくらいですか？また、そのUniProt IDを教えていただけますか？
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q1-6-1:
+  description: ACE2 遺伝子の発現レベルと、それに対応するUniProt IDを教えていただけますか？
+  variables: [expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q2-1-1:
+  description: At which developmental stage is the RGMA gene expressed, and what are its aliases?
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q2-2-1:
+  description: During which developmental stage is the RGMA gene active, and what alternative names does it go by?
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q2-3-1:
+  description: What developmental stages show expression of the RGMA gene, and what are its known aliases?
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q2-4-1:
+  description: RGMA 遺伝子はどの発達段階で発現しており、別名は何ですか？
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q2-5-1:
+  description: RGMA 遺伝子はどの発達段階で活性化され、他にどのような別名が知られていますか？
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q2-6-1:
+  description: RGMA 遺伝子はどの発達段階で発現しており、既知の別名は何ですか？
+  variables: [expression_condition_developmental_stage, uniprot_gene_alt_name]
+  parameters:
+    gene_name: "RGMA"
+  options:
+    distinct: true
+
+Q3-1-1:
+  description: What is the UniProt ID and the expression level of the ACE2 gene at different developmental stages?
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q3-2-1:
+  description: What is the UniProt ID and the expression pattern of the ACE2 gene across various developmental stages?
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q3-3-1:
+  description: Could you provide the UniProt ID and the expression levels of the ACE2 gene during different stages of development?
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q3-4-1:
+  description: ACE2遺伝子のUniProt IDと、さまざまな発生段階における発現パターンを教えてください。
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q3-5-1:
+  description: ACE2遺伝子のUniProt IDと、異なる発生段階での発現レベルを教えていただけますか？
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q3-6-1:
+  description: ACE2遺伝子のUniProt IDと、さまざまな発生段階における発現レベルを教えてください。
+  variables: [expression_condition_developmental_stage, expression_level, UniProt]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-1-1:
+  description: What is the Ensembl Gene ID of the ACE2 gene, and what is its EC number?
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-2-1:
+  description: What is the Ensembl Gene ID for the gene named ACE2, and what is its EC number?
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-3-1:
+  description: Could you provide the Ensembl Gene ID and the EC number for the ACE2 gene?
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-4-1:
+  description: ACE2 という名前の遺伝子の Ensembl Gene ID は何ですか？また、その EC 番号は何ですか？
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-5-1:
+  description: ACE2 という遺伝子の Ensembl Gene ID と EC 番号を教えていただけますか？
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q4-6-1:
+  description: ACE2 遺伝子の Ensembl Gene ID は何ですか？その EC 番号も教えてください。
+  variables: [uniprot_recommended_ec, gene_ensembl_id]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-1-1:
+  description: In which tissues or cells is the ACE2 gene expressed, and what is its EC number?
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-2-1:
+  description: Which tissues or cell types express the ACE2 gene, and what is its corresponding EC number?
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-3-1:
+  description: In which specific tissues or cells is the ACE2 gene active, and what is its enzyme classification (EC) number?
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-4-1:
+  description: ACE2遺伝子はどの組織または細胞タイプで発現しており、その対応するEC番号は何ですか？
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-5-1:
+  description: ACE2遺伝子はどの特定の組織または細胞で活性化されており、その酵素分類 (EC) 番号は何ですか？
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q5-6-1:
+  description: ACE2遺伝子はどの組織または細胞で発現していますか、そしてそのEC番号は何ですか？
+  variables: [anatomical_entity_name, uniprot_recommended_ec]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q6-1-1:
+  description: What is the description of the anatomical entity primary oocyte, and what is the EC number related to it?
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q6-2-1:
+  description: What is the definition of the anatomical entity primary oocyte, and what is the corresponding EC number associated with it?
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q6-3-1:
+  description: Could you provide a description of the anatomical entity primary oocyte and specify its related EC number?
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q6-4-1:
+  description: 解剖学的実体 primary oocyte の定義は何ですか？また、それに関連する EC 番号は何ですか？
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q6-5-1:
+  description: 解剖学的実体 primary oocyte の説明を教えてください。それに対応する EC 番号は何ですか？
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q6-6-1:
+  description: 解剖学的実体 primary oocyte の記述を教えてください。また、それに関連する EC 番号を指定してください。
+  variables: [anatomical_entity_description, uniprot_recommended_ec]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q7-1-1:
+  description: Please tell me about the annotations regarding the protein function related to the primary oocyte, and provide a description of this anatomical entity.
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q7-2-1:
+  description: Could you provide information on the protein function annotations associated with the primary oocyte, along with a description of this anatomical entity?
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q7-3-1:
+  description: Can you describe the protein function annotations for the primary oocyte and also give an explanation of what this anatomical entity is?
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q7-4-1:
+  description: primary oocyteに関連するタンパク質機能のアノテーションについて教えてください。また、この解剖学的構造についての説明もお願いします。
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q7-5-1:
+  description: primary oocyteに関連するタンパク質機能のアノテーションを教えてください。さらに、この解剖学的構造が何かについての説明もお願いします。
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q7-6-1:
+  description: primary oocyteに関連するタンパク質機能のアノテーションと、この解剖学的構造の説明を提供してください。
+  variables: [function_annotation_desc, anatomical_entity_description]
+  parameters:
+    anatomical_entity_name: "primary oocyte"
+  options:
+    distinct: true
+
+Q8-1-1:
+  description: What is the expression level of the ACE2 gene in each tissue, and which Gene Ontology (GO) terms is its associated protein classified under?
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q8-2-1:
+  description: What is the expression level of the ACE2 gene across different tissues, and which Gene Ontology (GO) categories is its corresponding protein associated with?
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q8-3-1:
+  description: How is the ACE2 gene expressed in various tissues, and what are the Gene Ontology (GO) terms linked to its associated protein?
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q8-4-1:
+  description: ACE2遺伝子の各組織における発現レベルはどのようになっていますか？また、その遺伝子に関連するタンパク質はどのGene Ontology (GO) カテゴリーに分類されていますか？
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q8-5-1:
+  description: ACE2遺伝子はさまざまな組織でどのように発現していますか？また、その関連タンパク質にリンクされているGene Ontology (GO)用語は何ですか？
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q8-6-1:
+  description: ACE2遺伝子の発現レベルは各組織でどのように分布していますか？また、そのタンパク質が関連付けられているGO用語にはどのようなものがありますか？
+  variables: [expression_level, anatomical_entity_name, uniprot_go]
+  parameters:
+    gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q9-1-1:
+  description: What are the names of proteins classified under obo:GO_0001618, and what is the expression level of their corresponding genes in each tissue?
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q9-2-1:
+  description: What are the names of the proteins classified under obo:GO_0001618, and what are the expression levels of their corresponding genes in various tissues?
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q9-3-1:
+  description: Could you provide the names of the proteins categorized under obo:GO_0001618 and the expression levels of their respective genes across different tissues?
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q9-4-1:
+  description: obo:GO_0001618 に分類されるタンパク質の名前は何ですか？また、それらの遺伝子の各組織における発現レベルはどのようになっていますか？
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q9-5-1:
+  description: obo:GO_0001618 に属するタンパク質の名前と、それらの遺伝子の各組織における発現レベルを教えてください。
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q9-6-1:
+  description: obo:GO_0001618 に分類されているタンパク質の名前は何ですか？さらに、それらの遺伝子が様々な組織でどのように発現しているかを教えてください。
+  variables: [uniprot_recommended_name, expression_level, anatomical_entity_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-1-1:
+  description: What is the expression level at each developmental stage of genes corresponding to proteins classified under obo:GO_0001618?
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-2-1:
+  description: What are the expression levels at each developmental stage for genes encoding proteins associated with obo:GO_0001618?
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-3-1:
+  description: How do the expression levels of genes corresponding to proteins under obo:GO_0001618 vary across different developmental stages?
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-4-1:
+  description: obo:GO_0001618 に関連するタンパク質をコードする遺伝子の各発生段階での発現レベルはどのようになっていますか？
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-5-1:
+  description: 各発生段階における obo:GO_0001618 に関連するタンパク質を持つ遺伝子の発現レベルはどのように変化しますか？
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q10-6-1:
+  description: obo:GO_0001618 に分類されるタンパク質に対応する遺伝子の各発生段階での発現レベルはどのようですか？
+  variables: [uniprot_recommended_name, expression_level, expression_condition_developmental_stage]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+Q11-1-1:
+  description: What are the molecular IDs that bind to the binding sites of the ACE2 gene, and what is the expression level of this gene across different species?
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q11-2-1:
+  description: What are the molecular identifiers that interact with the binding sites of the ACE2 gene, and how is this gene expressed across various species?
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q11-3-1:
+  description: Which molecular compounds bind to the binding sites of the ACE2 gene, and what are the expression levels of this gene in different species?
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q11-4-1:
+  description: ACE2遺伝子の結合部位と相互作用する分子識別子は何ですか？また、この遺伝子はさまざまな種でどのように発現していますか？
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q11-5-1:
+  description: ACE2遺伝子の結合部位に結合する分子化合物は何ですか？さらに、この遺伝子の異なる種における発現レベルはどうなっていますか？
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q11-6-1:
+  description: ACE2遺伝子の結合領域を標的とすることが知られている分子はどれですか？また、さまざまな生物における発現の違いはどのようになっていますか？
+  variables: [binding_site_annotation_ligand, expression_level, taxonomy_scientific_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+Q12-1-1:
+  description: What is the expression level in each tissue of the gene that encodes the protein catalyzing the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q12-2-1:
+  description: What is the expression pattern of the gene encoding the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine across different tissues?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q12-3-1:
+  description: How is the gene expression distributed in various tissues for the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q12-4-1:
+  description: 反応 angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine を触媒するタンパク質をコードする遺伝子の発現パターンは各組織でどのようになっていますか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q12-5-1:
+  description: 反応 angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine を触媒するタンパク質をコードする遺伝子の発現は、さまざまな組織でどのように分布していますか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q12-6-1:
+  description: 反応 angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine を触媒するタンパク質をコードする遺伝子の発現レベルは各組織でどのようですか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q13-1-1:
+  description: What is the name of the protein associated with PDB ID pdb:7A97, and in which species is its corresponding gene expressed?
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q13-2-1:
+  description: What is the name of the protein associated with the PDB ID pdb:7A97, and in which species is its corresponding gene expressed?
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q13-3-1:
+  description: Which protein is linked to the PDB ID pdb:7A97, and in which species is its corresponding gene found?
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q13-4-1:
+  description: PDB ID pdb:7A97 に関連するタンパク質の名前は何ですか？また、その対応する遺伝子はどの種で発現していますか？
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q13-5-1:
+  description: PDB ID pdb:7A97 と関連するタンパク質は何ですか？そして、その対応する遺伝子はどの種に存在しますか？
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q13-6-1:
+  description: PDB ID pdb:7A97 にリンクされているタンパク質はどれですか？その遺伝子はどの種で見られますか？
+  variables: [uniprot_recommended_name, taxonomy_scientific_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q14-1-1:
+  description: At which developmental stages is the gene with the ORF name UNQ868/PRO1885 expressed?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q14-2-1:
+  description: During which developmental stages is the gene with the ORF name UNQ868/PRO1885 actively expressed?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q14-3-1:
+  description: At what points in development is the gene corresponding to the ORF name UNQ868/PRO1885 expressed?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q14-4-1:
+  description: ORF名UNQ868/PRO1885を持つ遺伝子は、どの発達段階で活性化されていますか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q14-5-1:
+  description: ORF名UNQ868/PRO1885に対応する遺伝子は、発達のどの時点で発現していますか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q14-6-1:
+  description: ORF名UNQ868/PRO1885を持つ遺伝子は、どの発達段階で発現していますか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+Q15-1-1:
+  description: What is the FDR p-value of the gene encoding the protein associated with PDB ID pdb:7A97?
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q15-2-1:
+  description: What is the FDR-adjusted p-value for the gene encoding the protein linked to the PDB ID pdb:7A97?
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q15-3-1:
+  description: What is the false discovery rate p-value for the gene associated with the protein corresponding to PDB ID pdb:7A97?
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q15-4-1:
+  description: PDB ID pdb:7A97に関連するタンパク質をコードする遺伝子のFDR調整済みp値は何ですか？
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q15-5-1:
+  description: PDB ID pdb:7A97に対応するタンパク質と関連する遺伝子のFDR p値は何ですか？
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q15-6-1:
+  description: PDB ID pdb:7A97にリンクされたタンパク質をコードする遺伝子の偽発見率p値は何ですか？
+  variables: [expression_fdr_pvalue]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q16-1-1:
+  description: What is the name of the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine, and in which sex is its corresponding gene expressed?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q16-2-1:
+  description: What is the name of the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine, and in which sex is the corresponding gene expressed?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q16-3-1:
+  description: Which protein catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine, and what is the sex-specific expression pattern of its gene?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q16-4-1:
+  description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine という反応を触媒するタンパク質の名称は何ですか？その対応する遺伝子はどの性別で発現していますか？
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q16-5-1:
+  description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine の反応を触媒するタンパク質はどれですか？その遺伝子の性別特異的な発現パターンは何ですか？
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q16-6-1:
+  description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine の反応を触媒するタンパク質の名称は何ですか？その遺伝子はどちらの性別で発現していますか？
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+Q17-1-1:
+  description: What is the name of the protein associated with PDB ID pdb:7A97 and in which sex is its corresponding gene expressed?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q17-2-1:
+  description: What is the name of the protein linked to the PDB ID pdb:7A97, and in which sex is the corresponding gene expressed?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q17-3-1:
+  description: Could you provide the name of the protein related to PDB ID pdb:7A97 and specify the sex in which its gene is expressed?
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q17-4-1:
+  description: PDB ID pdb:7A97 に関連するタンパク質の名前は何ですか？また、対応する遺伝子はどちらの性別で発現していますか？
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q17-5-1:
+  description: PDB ID pdb:7A97 にリンクされているタンパク質の名前は何ですか？そして、その遺伝子はどちらの性別で発現していますか？
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+Q17-6-1:
+  description: PDB ID pdb:7A97 に関連するタンパク質の名前を教えてください。また、その遺伝子が発現している性別を指定してください。
+  variables: [uniprot_recommended_name, expression_condition_sex]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+

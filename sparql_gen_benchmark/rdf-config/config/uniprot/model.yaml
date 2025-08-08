@@ -1,0 +1,192 @@
+- UniProt up:Q9BYF1:
+  - a:
+    - core:Protein
+    - chembl:UniprotRef
+  - core:recommendedName:
+    - []:
+      - a: core:Structured_Name
+      - core:fullName:
+        - uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+      - core:shortName:
+        - uniprot_recommended_short_name: "hVps37A"
+      - core:ecName:
+        - uniprot_recommended_ec: "3.4.17.23"
+  - core:encodedBy:
+    - []:
+      - a: core:Gene
+      - skos:prefLabel:
+        - uniprot_gene_name: "ACE2"
+      - skos:altLabel:
+        - uniprot_gene_alt_name: "UNCX4.1"
+      - core:orfName:
+        - uniprot_orf_name: "UNQ868/PRO1885"
+  - core:created:
+    - uniprot_created_date: 2005-08-02
+  - core:modified:
+    - uniprot_modified_date: 2022-12-14
+  - core:annotation:
+    - uniprot_function_annotation: FunctionAnnotation
+  - core:annotation:
+    - uniprot_binding_site_annotation: BindingSiteAnnotation
+  - core:annotation:
+    - uniprot_catalytic_activity_annotation: CatalyticActivityAnnotation
+  - core:annotation:
+    - uniprot_mutagenesis_annotation: MutagenesisAnnotation
+  - core:annotation:
+    - uniprot_natural_variant_annotation: NaturalVariantAnnotation
+  - rdfs:seeAlso:
+    - uniprot_ncbigene: NcbiGene
+  - rdfs:seeAlso:
+    - uniprot_reactome: Reactome
+  - rdfs:seeAlso:
+    - uniprot_pdb: Pdb
+  - core:classifiedWith:
+    - uniprot_go: GO
+  - core:citation: 
+    - uniprot_citation: Citation
+
+- FunctionAnnotation up:Q9BYF1#SIP376F906C1FC9BAE4:
+  - a: core:Function_Annotation
+  - rdfs:comment:
+    - function_annotation_desc: "(Microbial infection) Acts as a receptor for..."
+  - core:sequence:
+    - function_annotation_sequence: isoforms:Q9BYF1-3
+
+- CatalyticActivityAnnotation up:A0A024R495#SIP793B603C8353D35C:
+  - a: core:Catalytic_Activity_Annotation
+  - core:catalyticActivity:
+    - []:
+      - a: core:Catalytic_Activity
+      - core:catalyzedReaction:
+        - catalytic_activity_annotation_rhea: Rhea
+  - core:catalyzedPhysiologicalReaction:
+    - catalytic_activity_physiological_raction: Rhea
+
+- Rhea rhea:63573:
+  - rdfs:subClassOf:
+    - rhea_subclass: rhea:DirectionalReaction
+  - rdfs:label:
+    - rhea_label: "angiotensin II + H2O => angiotensin-(1-7) + L-phenylalanine"
+  - rhea:citation:
+    - rhea_citation: "http://rdf.ncbi.nlm.nih.gov/pubmed/17897633"
+
+- MutagenesisAnnotation up:Q9BYF1#SIP08AFE023275A02FA:
+  - a: core:Mutagenesis_Annotation
+  - rdfs:comment:
+    - mutagenesis_annotation_desc: "Increases slightly the interaction with RBD domain of SARS-CoV-2 spike protein."
+  - core:substitution:
+    - mutagenesis_annotation_peptide_substitution: "R"
+  - core:sequence:
+    - mutagenesis_annotation_seq: isoforms:P12821-3
+  - core:range:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - mutagenesis_annotation_begin_position: 39
+      - faldo:end:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - mutagenesis_annotation_end_position: 39
+          
+- NaturalVariantAnnotation annotation:VAR_023082:
+  - a: core:Natural_Variant_Annotation
+  - rdfs:comment:
+    - natural_variant_annotation_desc: "In GEFS+1; can rescue the loss of..."
+  - core:substitution:
+    - natural_variant_annotation_peptide_substitution: "R"
+  - rdfs:seeAlso:
+    - natural_variant_annotation_dbsnp: dbsnp:rs4646116
+  - skos:related:
+    - natural_variant_annotation_related_disease: keywords:505
+  - core:sequence:
+    - natural_variant_annotation_seq: isoforms:P84550-2
+  - core:range:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - natural_variant_annotation_begin_position: 26
+      - faldo:end:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - natural_variant_annotation_end_position: 26
+
+- BindingSiteAnnotation up:Q9BYF1#SIP1F377B1DE4C0DD98:
+  - a: core:Binding_Site_Annotation
+  - core:ligand:
+    - []:
+      - rdfs:subClassOf:
+        - binding_site_annotation_ligand: obo:CHEBI_29105
+  - core:range:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - binding_site_annotation_begin_position: 374
+      - faldo:end:
+        - []:
+          - a: faldo:Position
+          - faldo:position:
+            - binding_site_annotation_end_position: 374
+
+- NcbiGene ncbigene:59272:
+  - a: core:Resource
+  - core:database:	<http://purl.uniprot.org/database/DisGeNET>
+
+- Reactome reactome:R-HSA-2022377:
+  - a: core:Resource
+  - core:database: <http://purl.uniprot.org/database/Reactome>
+
+- Pdb pdb:7A97:
+  - a: core:Structure_Resource
+
+- GO obo:GO_0001618:
+  - a: owl:Class
+
+- Citation citations:14504186:
+  - a:
+    - core:Journal_Citation
+    - core:Submission_Citation
+    - core:Thesis_Citation
+    - core:Observation_Citation
+    - core:Patent_Citation
+    - core:Book_Citation
+    - core:Electronic_Citation
+  - dct:identifier:
+    - citation_doi: "doi:10.1161/01.cir.0000094734.67990.99"
+  - core:title:
+    - citation_title: "Increased angiotensin-(1-7)-forming activity ..."
+  - core:date:
+    - citation_date: 2003
+  - core:name:
+    - citation_name: "Circulation"
+  - core:volume:
+    - citation_volume: "108"
+  - core:pages:
+    - citation_pages: "1707-1712"
+  - core:author+:
+    - citation_author: "Zisman L.S."
+  - core:editor:
+    - citation_editor: "Shugar D."
+  - foaf:primaryTopicOf:
+    - citation_pubmed: pubmed:14504186
+  - core:institution:
+    - citation_institution: "Faculty of Biological Sciences / Goettingen"
+  - core:place:
+    - citation_place: "Germany"
+  - core:publisher:
+    - citation_publisher: "Academic Press"
+  - core:submittedTo:
+    - citation_submit_to: "UniProtKB"
+  - core:group:
+    - citation_group: "Alzheimer's Disease Genetics Consortium"
+

@@ -1,0 +1,12 @@
+title: HomoloGene RDF
+website: https://www.ncbi.nlm.nih.gov/homologene/
+description: HomoloGene RDF is a translation of HomoloGene data into RDF.
+tags: [Genome, Gene, Phylogeny/Classification]
+provider: National Center for Biotechnology Information
+creators:
+  - name: Hirokazu Chiba
+    affiliation: Database Center for Life Science
+version: release_20230517
+issued: 2023-05-17
+licenses:
+  - https://www.ncbi.nlm.nih.gov/home/about/policies/

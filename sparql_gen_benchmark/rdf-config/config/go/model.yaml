@@ -1,0 +1,19 @@
+- Class obo:GO_0044255:
+  - a: rdfs:Resource
+  - oboinowl:id+:
+    - id: "GO:0044255"
+  - rdfs:label+:
+    - label: "cellular lipid metabolic process"
+  - obo:IAO_0000115+: # definition
+    - definition: "The chemical reactions and pathways involving lipids, as carried out by individual cells."
+  - oboinowl:hasDbXref+:
+    - xref: "Reactome:REACT_28392"
+  - oboinowl:hasExactSynonym+:
+    - synonym: "cellular lipid metabolism"
+  - oboinowl:hasOBONamespace+:
+    - namespace: "biological_process"
+  - oboinowl:inSubset*:
+    - subset: go:goslim_pir
+  - rdfs:subClassOf+:
+    - superclass: obo:GO_0044237 # cellular metabolic process
+

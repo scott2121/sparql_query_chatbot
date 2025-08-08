@@ -1,0 +1,71 @@
+- Glycan glycan:G00003VQ:
+  - a: glycan:saccharide
+  - glycan:has_glycosequence:
+    - glycosequence_uri: glycan:G00013MO/wurcs/2.0
+
+- Wurcs glycan:G00018MO/wurcs/2.0:
+  - a: glycan:glycosequence
+  - glycan:glycosequence:
+    - glycosequence: "\"WURCS=2.0/3,4,3/[u2112h_2*NCC/3=O_4*OSO/3=O/3=O][a2122A-1b_1-5][a2112h-1b_1-5_2*NCC/3=O_4*OSO/3=O/3=O]/1-2-3-2/a3-b1_b4-c1_c3-d1\"^^xsd:string"
+  - glycan:in_carbohydrate_format:
+    - in_carbohydrate_format: glycan:carbohydrate_format_wurcs
+  - wurcs:LIN_count:
+    - lin_count: 5
+  - wurcs:RES_count:
+    - res_count: 6
+  - wurcs:has_LIN+:
+    - has_lin1: wcs18MO:LIN/b4-c1
+    - has_lin2: wcs18MO:LIN/a3-b1
+    - has_lin3: wcs18MO:LIN/c3-d1
+
+  - wurcs:has_basetype+:
+    - has_basetype:  wurcs:/Basetype/u2112h_2%2ANCC%2F3%3DO, wurcs:/Basetype/u2122A
+  - wurcs:has_monosaccharide+:
+    - has_monosaccharide1: monosac:a2122A-1b_1-5
+    - has_monosaccharide2: monosac:a2112h-1b_1-5_2%2ANCC%2F3%3DO_4%2AOSO%2F3%3DO%2F3%3DO
+    - has_monosaccharide3: monosac:u2112h_2%2ANCC%2F3%3DO_4%2AOSO%2F3%3DO%2F3%3DO
+  - wurcs:has_root_RES:
+    - has_root_res: wcs18MO:RES/a
+  - wurcs:has_uniqueRES+:
+    - has_unique_res1: wcs18MO:UniqueRES/3
+    - has_unique_res2: wcs18MO:UniqueRES/1
+    - has_unique_res3: wcs18MO:UniqueRES/2
+  - wurcs:unique_res_count:
+    - uniqueres_count: 3
+  - owl:sameAs:
+    - sameas: wurcs:/WURCS%3D2.0%2F3%2C4%2C3%2F%5Bu2112h_2%2ANCC%2F3%3DO_4%2AOSO%2F3%3DO%2F3%3DO%5D%5Ba2122A-1b_1-5%5D%5Ba2112h-1b_1-5_2%2ANCC%2F3%3DO_4%2AOSO%2F3%3DO%2F3%3DO%5D%2F1-2-3-2%2Fa3-b1_b4-c1_c3-d1
+
+- Lin wcs18MO:LIN/b4-c1:
+  - a: wurcs:LIN
+  - wurcs:has_GLIPS+:
+    - has_glips1: wurcs:/GLIPS/c1
+    - has_glips2: wurcs:/GLIPS/b4
+  - wurcs:is_repeat:
+    - is_repeat: false
+
+- Res glycan:G00009BX/wurcs/2.0/RES/c:
+  - a: wurcs:RES
+  - wurcs:has_LIN:
+    - has_lin4: glycan:G00009BX/wurcs/2.0/LIN/c4-d1
+    - has_lin5: glycan:G00009BX/wurcs/2.0/LIN/b3-c1
+  - wurcs:is_uniqueRES:
+    - uniqueres: glycan:G00009BX/wurcs/2.0/UniqueRES/3
+
+- UniqueRES glycan:G00019BE/wurcs/2.0/UniqueRES/5:
+  - a: wurcs:UniqueRES
+  - wurcs:is_monosaccharide:
+    - is_monosaccharide: monosac:a2122h-1b_1-5
+
+- Glips wurcs:/GLIPS/e4:
+  - a: wurcs:GLIPS
+  - wurcs:has_GLIP:
+    - has_glip: wurcs:/GLIP/e4
+  - wurcs:is_fuzzy:
+    - node_20: false
+
+- Glip wurcs:/GLIP/b2:
+  - a: wurcs:GLIP
+  - wurcs:has_RES:
+    - has_res:  wurcs:/RES/b
+  - wurcs:has_SC_position:
+    - has_sc_position: 2

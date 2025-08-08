@@ -1,0 +1,3 @@
+sparql:
+  description: Get groups of orthologous genes
+  variables: [ Group, gene ]

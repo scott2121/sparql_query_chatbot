@@ -1,0 +1,6 @@
+association:
+  description: GWAS Catalog association and study record for dbsnp rs671 variant
+  parameters:
+    snps: "rs671"
+  variables: [strongest_snp_risk_allele, p_value, beta, beta_unit, ci_text, mapped_trait_text,
+              mapped_trait_uri, refpubmed, study, study_description, initial_sample_size, replication_sample_size]

@@ -1,0 +1,66 @@
+- Variation hco_grch38:12\/GRCh38#111803962-G-A:
+  - a: gvo:SNV
+  - a: gvo:Insertion
+  - a: gvo:Deletion
+  - a: gvo:Indel
+  - a: gvo:Substitution
+  - dct:identifier?:
+    - tgvid: "tgv47264307"
+  - rdfs:seeAlso*:
+    - dbsnp: dbsnp:rs671
+  - faldo:location+:
+    - []:
+      - a: faldo:ExactPosition
+      - faldo:position:
+        - position: 111803962
+      - faldo:reference:
+        - hco: hco:12\/GRCh38
+  - gvo:ref:
+    - reference_allele: "G"
+  - gvo:alt:
+    - alternative_allele: "A"
+  - gvo:filter*:
+    - filter: "PASS"
+  - gvo:qual*:
+    - quality_value: 451.77
+  - gvo:info*:
+    - []:
+      - rdf:value:
+        - allele_count: 52
+      - rdfs:label:
+        - allele_count_label: "AC"
+      - rdf:value:
+        - allele_frequency: 0.208
+      - rdfs:label:
+        - allele_frequency_label: "AF"
+      - rdf:value:
+        - allele_number: 250
+      - rdfs:label:
+        - allele_number_label: "AN"
+  - tgv:hasConsequence*:
+    - []:
+      - a: obo:SO_0001583 # missense_variant
+      - tgv:gene_symbol:
+        - hgnc: "ALDH2"
+      - tgv:gene_symbol_source:
+        - gene_symbol_source: "HGNC"
+      - tgv:hgvsc:
+        - hgvsc: "ENST00000261733.2:c.1510G>A"
+      - tgv:hgvsg:
+        - hgvsg: "12:g.111803962G>A"
+      - tgv:hgvsp:
+        - hgvsp: "ENSP00000261733.2:p.Glu504Lys"
+      - tgv:impact:
+        - impact: "MODERATE"
+      - tgv:polyphen:
+        - polyphen_score: 0.874
+      - tgv:polyphen_prediction:
+        - polyphen_prediction: "possibly_damaging"
+      - tgv:sift:
+        - sift_score: 0
+      - tgv:sift_prediction:
+        - sift_prediction: "deleterious"
+      - tgv:transcript:
+        - mrna: enst:ENST00000261733 # ALDH2-001
+  - tgv:most_severe_consequence:
+    - most_severe_consequence: obo:SO_0001583 # missense_variant

@@ -1,0 +1,3 @@
+sparql:
+  description: Get gene variants and evidences
+  variables: [ ncbigene, variation, variant_origin, variation_label, pubmed ]

@@ -1,0 +1,68 @@
+- Reaction rhea:10024:
+  - rhea:accession:
+    - reaction_accession_id: "RHEA:10024"
+  - rhea:bidirectionalReaction:
+    - reaction_bidirectional_reaction: rhea:10027
+  - rhea:citation+:
+    - reaction_citation: pubmed:10949293
+  - rhea:directionalReaction+:
+    - reaction_directional_reaction: rhea:10025
+  - rhea:ec:
+    - reaction_ec_number: uniprot_enzyme:7.1.3.1
+  - rhea:equation:
+    - reaction_equation: "L-lysyl-[histone] + S-adenosyl-L-methionine = H(+) + N(6)-methyl-L-lysyl-[histone] + S-adenosyl-L-homocysteine"
+  - rhea:htmlEquation:
+    - reaction_equation_html: "<small>L</small>-lysyl-[histone] + <i>S</i>-adenosyl-<small>L</small>-methionine = H <small><sup>+</sup></small> + <i>N</i><small><sup>6</sup></small>-methyl-<small>L</small>-lysyl-[histone] + <i>S</i>-adenosyl-<small>L</small>-homocysteine"
+  - rhea:id:
+    - reaction_id: 10024
+  - rhea:isChemicallyBalanced:
+    - reaction_is_chemically_balanced: true
+  - rhea:isTransport:
+    - reaction_is_transport: false
+  - rhea:side+:
+    - reaction_side: Side
+  - rhea:status:
+    - reaction_status: rhea:Approved
+  - rdfs:label:
+    - reaction_label: "L-lysyl-[histone] + S-adenosyl-L-methionine = H(+) + N(6)-methyl-L-lysyl-[histone] + S-adenosyl-L-homocysteine"
+  - rdfs:subClassOf+:
+    - reaction_sub_class_of_rhea: rhea:51736
+    - reaction_sub_class_of_reaction: rhea:Reaction
+
+- Side rhea:13973_L:
+  - rhea:contains+:
+    - side_contains: Participant
+  - rhea:curatedOrder:
+    - side_curated_order: 1
+  - rhea:transformableTo:
+    - side_transformable_to: rhea:13973_R
+  - rdfs:subClassOf:
+    - side_sub_class_of_reactionside: rhea:ReactionSide
+
+- Participant rhea:Participant_13973_compound_1283:
+  - rhea:compound:
+    - participant_compound: Compound
+  - rhea:location*:
+    - participant_location: rhea:Out
+  - rdfs:subClassOf+:
+    - participant_sub_class_of_compound: Compound
+    - participant_sub_class_of_reactionparticipant: rhea:ReactionParticipant
+
+- Compound rhea:Compound_1283:
+  - rhea:accession:
+    - compound_accession_id: "CHEBI:15377"
+  - rhea:charge:
+    - compound_charge: 0
+  - rhea:chebi:
+    - compound_chebi: obo:CHEBI_15377 # water
+  - rhea:formula:
+    - compound_formula: "H2O"
+  - rhea:htmlName:
+    - compound_name_html: "H2O"
+  - rhea:id:
+    - compound_rhea_id: 1283
+  - rhea:name:
+    - compound_name: "H2O"
+  - rdfs:subClassOf+:
+    - compound_sub_class_of_chebi: obo:CHEBI_15377 # water
+    - compound_sub_class_of_smallmolecule: rhea:SmallMolecule

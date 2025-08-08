@@ -1,0 +1,194 @@
+- Book
+  - a: dbo:Book
+  - dbo:author:
+    - author: res:William_Goldman
+  - dbo:publisher:
+    - publisher: res:Viking_Press
+  - dbp:releaseDate:
+    - date: "1973-08-01"^^xsd:date
+  - dbo:publicationDate:
+    - date: "1973-08-01"^^xsd:date
+  - dbo:numberOfPages:
+    - number_of_pages: 300
+
+- Game
+  - a: dbo:Game
+  - dbo:publisher:
+    - publisher: res:Mean_Hamster_Software
+  - rdfs:label:
+    - label: "Battle Chess"@en
+
+
+- VdideoGame
+  - a: dbo:VideoGame
+  - dbo: publisher:
+    - publisher: res:Mean_Hamster_Software
+  - rdfs:label:
+    - label: "Battle Chess"@en
+  - dbo:developer:
+    - developer: Company
+
+- ActionRolePlayingVideoGames
+  - dct:subject dbc:Action_role-playing_video_games
+  - dbp: ign:
+    - ign_score : '9.5'^^xsd:double
+
+- Software
+  - a: dbo:Software
+  - dbo:developer:
+    - developer: Company
+
+- Company
+  - a: dbo:Company
+  - rdfs:label:
+    - label: "Slack Technologies"@en
+  - dbo:foundationPlace:
+    - foundation_place: res:California
+  - dbo:product:
+    - product: res:Slack_(software)
+  - dbo:industry:
+    - industory: res:Electronics
+  - dbo:location:
+    - location: res:India
+  - dbo:headquarter:
+    - headquarter: res:India
+  - dbo:locationCity:
+    - location_city: res:India
+  - dbo:numberOfEmployees:
+    - number_of_employees: 1400000
+  - dbo:numEmployees: #これはない方がいい more than 200とかがあり、　?n>1000でTrueとなると思う
+    - employees_number: 1400000
+
+- ProgrammingLanguage
+  - a: dbo:ProgrammingLanguage
+  - dbo:influencedBy:
+    - influenced_by: res:Perl
+
+- TelevisionShow
+ - a: dbo:TelevisionShow
+ - dbo:starring:
+  - starring: res:Neil_Patrick_Harris
+ - dbo:creator:
+  - creator: res:Walt_Disney
+ - dbo:numberOfEpisodes:
+    - number_of_episodes: 10
+ - dbo:composer:
+    - composer: res:Ramin_Djawadi
+
+- Film
+  - a: dbo:Film
+  - dbo:country:
+    - country: Country
+  - dbo:starring:
+    - starring: Person # res:Brad_Pitt
+  - dbo:director:
+    - director: res:Guy_Ritchie
+  - dbo:producer:
+    - producer: res:Nia_Dinata
+  - dbo:budget:
+    - budget: "5.2E7"^^<http://dbpedia.org/datatype/usDollar>
+  - dbo:releaseDate:
+    - date: "1966-10-14"^^xsd:date
+
+- Album
+  - a:
+    - dbo:album
+    - dbo:Album
+  - rdf:lable:
+    - label: "Last Christmas"@en
+  - dbo:artist:
+    - artist: res:Elvis_Presley
+  - releaseDate:
+    - date: "1969-11-10"^^xsd:date
+  - dbo:recordLabel:
+    - record_label: res:RCA_Records
+
+Song
+  - a: dbo:Song
+  - dbo:artist:
+    - artist: res:Bruce_Springsteen
+  - dbo:releaseDate:
+    - date: "1978-05-23"^^xsd:date
+
+- Weapon
+  - a: dbo:Weapon
+  - dbp:designer:
+    - designer: res:Uziel_Gal
+
+# - Language 
+#   - a: dbo:Language
+#   - dbo:spokenIn:
+#     - spoken_in: res:Estonia
+
+- Lake
+  - a: dbo:Lake
+  - dbo:inflow:
+    - inflow: River
+  - dbo:country:
+    - country_of_lake: Country
+
+- River res:Isar
+  - a: dbo:River
+  - dbo:city:
+    - city_river_flow: City
+
+- Country res:Germany
+  - a: dbo:Country
+
+- City
+  - a: dbo:City
+  - dbo:populationTotal:
+    - population_total: 1000000
+
+- Person
+  - a: dbo:Person
+  - dbo:occupation:
+    - occupation: Occupation
+  - dbo:profession:
+    - profession: Profession
+  - dbo:birthPlace:
+    - birth_place: res:California
+  - dbo:deathPlace:
+    - death_place: res:Berlin
+  - dbo:deathDate:
+    - death_date: "2019-01-01"^^xsd:date
+  - dbo:birthYear:
+    - birth_year: '1978'^^xsd:gYear
+  - dbo:birthName:
+    - birth_name: "Mark Twain"
+  - dbo:child:
+    - child: res:Luke_Skywalker
+  - dbo:weigh:
+    - weight: 124000.0
+  - dbo:almaMater:
+    - school: School
+  - dbo:spouse:
+    - spouse: Person
+
+- Occupation
+  - a:
+    - dbo:Writer
+
+- Profession
+  - a:
+    - dbo:Politician
+
+
+- School
+  - a::
+    - dbo:University
+  - dbo:city:
+    - city: City
+  - dbo:country:
+    - country: Country
+
+- Organisation
+  - a: dbo:Organisation
+  - dbo:location:
+    - location: res:California
+  - dbp:locationCountry:
+    - location_country: res:Australia
+
+- YAGO_Lake
+  - a: 
+    - LakesOfDenmark

@@ -1,0 +1,6 @@
+sparql:
+  # To exclude chromosomes such as patches or haplotypes, add 'FILTER (strlen(?ensg_chromosome) < 3)'.
+  description: Ensembl gene and chromosome
+  variables: [ ensg_id, ensg_label, ensg_chromosome ]
+  parameters:
+    ensg_taxonomy: taxonomy:9606

@@ -1,0 +1,1410 @@
+ID0-1-1:
+  description: What is the UniProt ID for the protein associated with the ACE2 gene?
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID0-2-1:
+  description: Please tell me the UniProt database identifier for the protein encoded by the ACE2 gene.
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID0-3-1:
+  description: What is the UniProt accession number for the protein corresponding to ACE2?
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID0-4-1:
+  description: ACE2遺伝子に関連するタンパク質のUniProt IDは何ですか?
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID0-5-1:
+  description: ACE2遺伝子がコードするタンパク質のUniProtデータベース識別子を教えてください。
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID0-6-1:
+  description: ACE2に対応するタンパク質のUniProt accession numberは何でしょうか?
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID1-1-1:
+  description: What is the UniProt ID for the protein with the full name Angiotensin-converting enzyme 2?
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID1-2-1:
+  description: I'm looking for the UniProt entry number for the protein known as Angiotensin-converting enzyme 2.
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID1-3-1:
+  description: What is the identifier used to search for the Angiotensin-converting enzyme 2 protein in the UniProt database?
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID1-4-1:
+  description: Angiotensin-converting enzyme 2というフルネームを持つタンパク質のUniProt IDは何ですか?
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID1-5-1:
+  description: Angiotensin-converting enzyme 2として知られるタンパク質のUniProtエントリー番号を探しています。
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID1-6-1:
+  description: UniProtデータベースでAngiotensin-converting enzyme 2タンパク質を検索する際の識別子は何ですか?
+  variables: [UniProt]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+ID2-1-1:
+  description: What are the aliases for the ACE2 gene?
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID2-2-1:
+  description: Please tell me the other names given to the ACE2 gene.
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID2-3-1:
+  description: Is the ACE2 gene called by any other names? If so, what are they?
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID2-4-1:
+  description: ACE2遺伝子の別名は何ですか?
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID2-5-1:
+  description: ACE2遺伝子に付けられている他の名称を教えてください。
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID2-6-1:
+  description: ACE2遺伝子が別の名前で呼ばれることはありますか? それは何ですか?
+  variables: [uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-1-1:
+  description: What is the EC number for the ACE2 gene?
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-2-1:
+  description: I want to know the Enzyme Commission number for the enzyme coded by the ACE2 gene.
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-3-1:
+  description: Please tell me the EC classification number assigned to the ACE2 protein.
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-4-1:
+  description: ACE2遺伝子のEC番号は何ですか?
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-5-1:
+  description: ACE2遺伝子がコードする酵素のEnzyme Commission numberを知りたいです。
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID3-6-1:
+  description: ACE2タンパク質に割り当てられているEC分類番号を教えてください。
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID4-1-1:
+  description: What is the name of the protein with EC number 3.4.17.23?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID4-2-1:
+  description: What is the name of the protein classified under Enzyme Commission number 3.4.17.23?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID4-3-1:
+  description: What is the name of the protein assigned the EC number 3.4.17.23?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID4-4-1:
+  description: EC番号3.4.17.23を持つタンパク質名は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID4-5-1:
+  description: Enzyme Commission number 3.4.17.23に分類されるタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID4-6-1:
+  description: 3.4.17.23というEC番号が割り当てられているタンパク質名は?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_ec: "3.4.17.23"
+  options:
+    distinct: true
+
+ID5-1-1:
+  description: What is the ORF name for the ACE2 gene?
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID5-2-1:
+  description: Please tell me the identifier for the Open Reading Frame corresponding to the ACE2 gene.
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID5-3-1:
+  description: What is the ORF (Open Reading Frame) name that indicates the translation region of ACE2?
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID5-4-1:
+  description: ACE2遺伝子のORF名は何ですか?
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID5-5-1:
+  description: ACE2遺伝子に対応するOpen Reading Frameの識別子を教えてください。
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID5-6-1:
+  description: ACE2の翻訳領域を示すORF（オープンリーディングフレーム）名は何でしょうか?
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID6-1-1:
+  description: What is the name of the protein with the ORF name UNQ868/PRO1885?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID6-2-1:
+  description: I want to know the official name of the protein encoded by Open Reading Frame UNQ868/PRO1885.
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID6-3-1:
+  description: What is the protein translated from the ORF UNQ868/PRO1885 called?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID6-4-1:
+  description: UNQ868/PRO1885というORF名を持つタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID6-5-1:
+  description: Open Reading Frame UNQ868/PRO1885がコードするタンパク質の正式名称を知りたいです。
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID6-6-1:
+  description: UNQ868/PRO1885というORFから翻訳されるタンパク質は何と呼ばれていますか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+ID8-1-1:
+  description: Please tell me about the annotations regarding the protein function of the ACE2 gene.
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID8-2-1:
+  description: Explain the biological role of the protein encoded by the ACE2 gene.
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID8-3-1:
+  description: Please share what is known about the known functions and activities of the ACE2 protein.
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID8-4-1:
+  description: ACE2遺伝子のタンパク質機能に関する注釈を教えてください。
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID8-5-1:
+  description: ACE2遺伝子がコードするタンパク質の生物学的役割について説明してください。
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID8-6-1:
+  description: ACE2タンパク質の既知の機能や活性について、わかっていることを教えてください。
+  variables: [function_annotation_desc]
+  parameters:
+    uniprot_gene_name : "ACE2"
+  options:
+    distinct: true
+
+ID9-1-1:
+  description: What is the name of the protein corresponding to NCBI Gene ID ncbigene:59272?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID9-2-1:
+  description: I want to know the protein name associated with the entry that has the identifier ncbigene:59272 in the NCBI gene database.
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID9-3-1:
+  description: What is the official name of the protein translated from the NCBI Gene ID ncbigene:59272?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID9-4-1:
+  description: NCBI Gene ID ncbigene:59272に対応するタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID9-5-1:
+  description: NCBI遺伝子データベースでncbigene:59272という識別子を持つエントリーに関連するタンパク質名を知りたいです。
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID9-6-1:
+  description: ncbigene:59272というNCBI Gene IDから翻訳されるタンパク質の正式名称は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+ID10-1-1:
+  description: What is the name of the protein associated with Reactome ID reactome:R-HSA-2022377?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID10-2-1:
+  description: Please tell me the name of the protein linked to the identifier reactome:R-HSA-2022377 in the Reactome database.
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID10-3-1:
+  description: What is the name of the biomolecule corresponding to the Reactome ID reactome:R-HSA-2022377?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID10-4-1:
+  description: Reactome ID reactome:R-HSA-2022377に関連するタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID10-5-1:
+  description: Reactomeデータベースでreactome:R-HSA-2022377という識別子に紐づけられているタンパク質の名前を教えてください。
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID10-6-1:
+  description: reactome:R-HSA-2022377というReactome IDに対応する生体分子の名称は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+ID11-1-1:
+  description: What are the PDB entries related to the protein structure of the ACE2 gene?
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID11-2-1:
+  description: If the three-dimensional structure of the ACE2 protein is registered in the Protein Data Bank, please tell me its PDB ID.
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID11-3-1:
+  description: If structural information for the ACE2 gene product exists in the PDB, what is its entry number?
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID11-4-1:
+  description: ACE2遺伝子のタンパク質構造に関するPDBエントリーは何ですか?
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID11-5-1:
+  description: ACE2タンパク質の立体構造がProtein Data Bankに登録されている場合、そのPDB IDを教えてください。
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID11-6-1:
+  description: ACE2遺伝子産物の構造情報がPDBに存在する場合、そのエントリー番号は何ですか?
+  variables: [uniprot_pdb]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID12-1-1:
+  description: What is the name of the protein associated with PDB ID pdb:7A97?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID12-2-1:
+  description: I want to know the official name of the protein registered in the Protein Data Bank entry pdb:7A97.
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID12-3-1:
+  description: What is the protein called that corresponds to the structural data with the identifier pdb:7A97 in the PDB database?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID12-4-1:
+  description: PDB ID pdb:7A97に関連するタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID12-5-1:
+  description: Protein Data Bank エントリーpdb:7A97に登録されているタンパク質の正式名称を知りたいです。
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID12-6-1:
+  description: PDBデータベースでpdb:7A97という識別子を持つ構造データに対応するタンパク質は何と呼ばれていますか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_pdb: pdb:7A97
+  options:
+    distinct: true
+
+ID13-1-1:
+  description: Which GO terms is the protein of the ACE2 gene classified under?
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID13-2-1:
+  description: Please tell me the Gene Ontology terms assigned to the ACE2 protein.
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID13-3-1:
+  description: In the Gene Ontology database, what functions or processes is the ACE2 gene product classified under?
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID13-4-1:
+  description: ACE2遺伝子のタンパク質はどのGOタームに分類されていますか?
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID13-5-1:
+  description: ACE2タンパク質に付与されているGene Ontology用語を教えてください。
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID13-6-1:
+  description: Gene Ontologyデータベースにおいて、ACE2遺伝子産物はどのような機能や過程に分類されていますか?
+  variables: [uniprot_go]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID14-1-1:
+  description: What are the names of proteins classified under obo:GO_0001618?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID14-2-1:
+  description: Please list the names of proteins associated with the Gene Ontology term obo:GO_0001618.
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID14-3-1:
+  description: What gene products are classified under the GO term obo:GO_0001618?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID14-4-1:
+  description: obo:GO_0001618に分類されるタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID14-5-1:
+  description: Gene Ontology用語obo:GO_0001618に関連付けられているタンパク質の名前を列挙してください。
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID14-6-1:
+  description: obo:GO_0001618というGOタームに分類される遺伝子産物にはどのようなものがありますか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_go: obo:GO_0001618
+  options:
+    distinct: true
+
+ID15-1-1:
+  description: What is the DOI of the main literature citation for the protein of the ACE2 gene?
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID15-2-1:
+  description: Please provide the DOI (Digital Object Identifier) of an important research paper that describes the ACE2 protein in detail.
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID15-3-1:
+  description: Which DOI can be used to identify a representative scientific paper about the ACE2 gene product?
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID15-4-1:
+  description: ACE2遺伝子のタンパク質に関する主要な文献の引用情報であるDOIはなんですか?
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID15-5-1:
+  description: ACE2タンパク質について詳しく述べている重要な研究論文のDOI (Digital Object Identifier) を教えてください。
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID15-6-1:
+  description: ACE2遺伝子産物に関する代表的な科学論文を特定するためのDOIはどれですか?
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-1-1:
+  description: Where can I find information about the binding sites of the ACE2 gene?
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-2-1:
+  description: Which databases or information sources should I refer to in order to learn more about the intermolecular interaction sites of the ACE2 protein?
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-3-1:
+  description: Please tell me about websites or databases that contain detailed information on the binding domains of the ACE2 gene product.
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-4-1:
+  description: ACE2遺伝子の結合部位に結合する分子と結合する位置の始点と終点はそれぞれなんですか
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-5-1:
+  description: ACE2遺伝子に結合する分子と、その結合が起こる範囲を特定できますか?
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID17-6-1:
+  description: ACE2遺伝子産物の結合部位において、リガンドが結合する配列の開始位置と終了位置を教えてください。
+  variables: [binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-1-1:
+  description: What are the molecular IDs that bind to the binding sites of the ACE2 gene?
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-2-1:
+  description: Please list the names of ligands that interact with the ACE2 protein.
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-3-1:
+  description: What substances specifically bind to the binding domains of the ACE2 gene product?
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-4-1:
+  description: ACE2遺伝子の結合部位に結合する分子IDは何ですか?
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-5-1:
+  description: ACE2タンパク質と相互作用するリガンド名を列挙してください。
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID18-6-1:
+  description: ACE2遺伝子産物の結合ドメインに特異的に結合する物質にはどのようなものがありますか?
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-1-1:
+  description: Can you explain about mutagenesis of the ACE2 gene?
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-2-1:
+  description: Please explain what is known about artificially introduced mutations in the ACE2 gene and their effects.
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-3-1:
+  description: Could you summarize the annotations of mutations in ACE2?
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-4-1:
+  description: ACE2遺伝子の変異誘発に関する説明を教えてください?
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-5-1:
+  description: ACE2遺伝子に人工的に導入された変異とその影響について、わかっていることを説明してください。
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID21-6-1:
+  description: ACE2の変異のアノテーションを要約してくださいませんか?
+  variables: [mutagenesis_annotation_desc]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID22-1-1:
+  description: Can you explain about the natural variations of the TRP4.8 gene?
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID22-2-1:
+  description: Please tell me what is currently known about naturally occurring polymorphisms and variants of the TRP4.8 gene.
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID22-3-1:
+  description: Could you explain what is known about the natural variations of the TRP4.8 gene?
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID22-4-1:
+  description: TRP4.8遺伝子の自然変異に関する説明を教えてください?
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID22-5-1:
+  description: TRP4.8遺伝子の自然発生的な多型や変異体について、現在わかっていることを教えてください。
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID22-6-1:
+  description: TRP4.8遺伝子の自然変異についてわかっていることを説明していただけますか?
+  variables: [natural_variant_annotation_desc]
+  parameters:
+    uniprot_gene_name: "TRP4.8"
+  options:
+    distinct: true
+
+ID24-1-1:
+  description: What is the explanation for the reaction catalyzed by the ACE2 gene?
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID24-2-1:
+  description: Please explain in detail the mechanism of the biochemical reaction facilitated by the ACE2 protein.
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID24-3-1:
+  description: Can you tell me about the substrates, products, and the process of the chemical reaction catalyzed by the ACE2 gene product?
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID24-4-1:
+  description: ACE2遺伝子が触媒する反応の説明は何ですか?
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID24-5-1:
+  description: ACE2タンパク質が促進する生化学反応のメカニズムを詳しく説明してください。
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID24-6-1:
+  description: ACE2遺伝子産物が触媒する化学反応の基質と生成物、そして反応過程を教えていただけますか?
+  variables: [rhea_label]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+ID25-1-1:
+  description: What is the name of the protein that catalyzes the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+ID25-2-1:
+  description: Please tell me the official name of the enzyme that facilitates the biochemical reaction described as angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine in the Rhea database.
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+ID25-3-1:
+  description: What is the name of the catalytic protein associated with the reaction angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine?
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+ID25-4-1:
+  description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanineという反応を触媒するタンパク質の名前は何ですか?
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+ID25-5-1:
+  description: Rheaデータベースでangiotensin II + H2O = angiotensin-(1-7) + L-phenylalanineとして記述されている生化学反応を促進する酵素の正式名称を教えてください。
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+ID25-6-1:
+  description: angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanineという反応 に関連付けられている触媒タンパク質の名前は?
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+
+
+SPARQL-test:
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [citation_doi, citation_title, citation_date, citation_name, citation_volume, citation_pages, citation_author]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [rhea_citation]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [rhea_citation]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [rhea_citation, citation_doi]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [citation_doi]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [rhea_citation]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [binding_site_annotation_ligand]
+  parameters:
+    rhea_label: rhea:10024
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_orf_name: "UNQ868/PRO1885"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_reactome: reactome:R-HSA-2022377
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_orf_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name, uniprot_recommended_short_name, uniprot_gene_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt, uniprot_recommended_name, uniprot_recommended_short_name, uniprot_recommended_ec, uniprot_gene_name, uniprot_gene_alt_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt, uniprot_gene_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name, uniprot_recommended_short_name, uniprot_recommended_ec]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name]
+  parameters:
+    uniprot_recommended_name: "Angiotensin-converting enzyme 2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt, uniprot_recommended_name, uniprot_recommended_short_name, uniprot_recommended_ec, uniprot_gene_name, uniprot_gene_alt_name, uniprot_orf_name, uniprot_created_date, uniprot_modified_date, function_annotation_desc, function_annotation_sequence, rhea_label, rhea_citation, mutagenesis_annotation_desc, mutagenesis_annotation_begin_position, mutagenesis_annotation_end_position, natural_variant_annotation_desc, natural_variant_annotation_begin_position, natural_variant_annotation_end_position, binding_site_annotation_ligand, binding_site_annotation_begin_position, binding_site_annotation_end_position, uniprot_ncbigene, uniprot_reactome, uniprot_pdb, uniprot_go, citation_doi, citation_title, citation_date, citation_name, citation_volume, citation_pages, citation_author]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name]
+  parameters:
+    rhea_label: "angiotensin II + H2O => angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_name, rhea_label]
+  parameters:
+    rhea_label: "angiotensin II + H2O = angiotensin-(1-7) + L-phenylalanine"
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+
+SPARQL-test:
+  variables: [uniprot_recommended_ec]
+  parameters:
+    uniprot_ncbigene: ncbigene:59272
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+
+
+docker-test:
+  variables: [UniProt]
+  parameters:
+    uniprot_gene_name: "ACE2"
+  options:
+    distinct: true
+

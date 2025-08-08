@@ -1,0 +1,5 @@
+glycan: <http://rdf.glycoinfo.org/glycan/>
+wurcs: <http://rdf.glycoinfo.org/glycan/wurcs/2.0/>
+wcs18MO: <http://rdf.glycoinfo.org/glycan/G00018MO/wurcs/2.0/>
+monosac: <http://rdf.glycoinfo.org/glycan/wurcs/2.0/Monosaccharide/>
+owl: <http://www.w3.org/2002/07/owl#>

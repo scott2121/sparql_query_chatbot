@@ -1,0 +1,150 @@
+## gene.ttl
+- EnsemblGene ensg:ENSG00000000003:
+  - a: terms:EnsemblGene
+  ## Biotypes are set as objects of both rdf:type and terms:has_biotype.
+  - terms:has_biotype:
+    - ensg_biotype: ensgloss:ENSGLOSSARY_0000026  # protein coding
+  - rdfs:label:
+    - ensg_label: "TSPAN6"
+  - dcterms:description:
+    - ensg_description: "tetraspanin 6 [Source:HGNC Symbol;Acc:HGNC:11858]"
+  - dcterms:identifier:
+    - ensg_id: "ENSG00000000003"
+  - obo:RO_0002162:
+    - ensg_taxonomy: taxonomy:9606
+  - so:part_of+:
+    - ensg_chromosome: <http://rdf.ebi.ac.uk/resource/ensembl/110/homo_sapiens/GRCh38/X>
+    ## In addition, human genes have an HCO term.
+  - faldo:location:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a:
+            # always has ExactPostion
+            - faldo:ExactPosition
+            # whether Forward or Reverse is variable
+            - faldo:ForwardStrandPosition
+            - faldo:ReverseStrandPosition
+          - faldo:position:
+            - ensg_begin: 100627108
+          ## same value as the object of so:part_of
+          # - faldo:reference:
+          #   - ensg_chromosome: <http://rdf.ebi.ac.uk/resource/ensembl/109/homo_sapiens/GRCh38/X>
+      - faldo:end:
+        - []:
+          - a:
+            - faldo:ExactPosition
+            - faldo:ForwardStrandPosition
+            - faldo:ReverseStrandPosition
+          - faldo:position:
+            - ensg_end: 100639991
+  - skos:altLabel*:
+    - ensg_altlabel: "TM4SF6"
+  ## xref.ttl
+  - rdfs:seeAlso*:
+    - ensg_xref: <http://identifiers.org/hgnc/HGNC:11858>
+
+## transcript.ttl
+- EnsemblTranscript enst:ENST00000207457:
+  - a: terms:EnsemblTranscript
+  - terms:has_biotype:
+    - enst_biotype: ensgloss:ENSGLOSSARY_0000026
+  - rdfs:label:
+    - enst_label: "TEKT2-201"
+  - dcterms:identifier:
+    - enst_id: "ENST00000207457"
+  - so:transcribed_from:
+    - enst_transcribed_from: EnsemblGene
+  - so:translates_to?:
+    - enst_translates_to: EnsemblProtein
+  # flag
+  ## https://asia.ensembl.org/info/genome/genebuild/transcript_quality_tags.html
+  - terms:has_transcript_flag*:
+    - enst_flag: ensgloss:ENSGLOSSARY_0000006
+  - faldo:location:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a:
+            - faldo:ExactPosition
+            - faldo:ForwardStrandPosition
+            - faldo:ReverseStrandPosition
+          - faldo:position:
+            - enst_begin: 36084094
+          - faldo:reference:
+            - enst_chromosome: <http://rdf.ebi.ac.uk/resource/ensembl/109/homo_sapiens/GRCh38/1>
+      - faldo:end:
+        - []:
+          - a:
+            - faldo:ExactPosition
+            - faldo:ForwardStrandPosition
+            - faldo:ReverseStrandPosition
+          - faldo:position:
+            - enst_end: 36088275
+  ## exon_transcript.ttl
+  - so:has_part+:
+    - enst_has_exon: EnsemblExon
+  ## exon_transcript.ttl
+  - sio:SIO_000974+:
+    - enst_has_ordered_exon: EnsemblOrderedExon
+  ## xref.ttl
+  - rdfs:seeAlso*:
+    - enst_xref: <http://identifiers.org/refseq/NM_014466>
+
+- EnsemblTranscriptFlagComment <http://rdf.ebi.ac.uk/resource/ensembl.transcript/#_ENST00000207457-has_transcript_flag-tsl1>:
+  - a: rdf:Statement
+  - rdf:subject:
+    - flag_comment_subject: EnsemblTranscript
+  - rdf:predicate:
+    - flag_comment_predicate: terms:has_transcript_flag
+  - rdf:object:
+    - flag_comment_object: ensgloss:ENSGLOSSARY_0000006
+  - rdfs:comment:
+    - flag_comment: "assigned to previous version 7"
+
+## exon.ttl
+- EnsemblExon ense:ENSE00002619687:
+  - a: terms:EnsemblExon
+  - a: obo:SO_0000147   # exon
+  - dcterms:identifier:
+    - ense_id: "ENSE00002619687"
+  - faldo:location:
+    - []:
+      - a: faldo:Region
+      - faldo:begin:
+        - []:
+          - a:
+            - faldo:ExactPosition
+            - faldo:ForwardStrandPosition
+            - faldo:ReverseStrandPosition
+          - faldo:position:
+            - ense_begin: 18792879
+          - faldo:reference:
+            - ense_chromosome: <http://rdf.ebi.ac.uk/resource/ensembl/109/homo_sapiens/GRCh38/16>
+      - faldo:end:
+        - []:
+          - a: faldo:ExactPosition
+          - faldo:position:
+            - ense_end: 18793370
+
+## exon_transcript.ttl
+- EnsemblOrderedExon <http://rdf.ebi.ac.uk/resource/ensembl.transcript/ENST00000623960#Exon_7>:
+  - a: terms:EnsemblOrderedExon
+  - a: sio:SIO_001261 # ordered list item
+  - sio:SIO_000628: # refers to
+    - ensembl_ordered_exon_refers_to: EnsemblExon
+  - sio:SIO_000300: # has value
+    - ensembl_ordered_exon_index: 7
+
+## translation.ttl
+- EnsemblProtein ensp:ENSP00000473889:
+  - a: terms:EnsemblProtein
+  - dcterms:identifier:
+    - ensp_id: "ENSP00000473889"
+  - so:translation_of:
+    - ensp_translation_of: EnsemblTranscript
+  ## xref.ttl
+  - rdfs:seeAlso*:
+    - ensp_xref: uniprot:P01817

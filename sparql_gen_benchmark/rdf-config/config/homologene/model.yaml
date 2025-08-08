@@ -1,0 +1,31 @@
+- Group homologene:3:
+  - a: orth:OrthologsCluster
+  - dct:identifier:
+    - group_id: 3
+  - rdfs:label:
+    - group_label: "Gene conserved in Bilateria"
+  - orth:inDataset:
+    - dataset: Dataset
+  - orth:hasHomologousMember+:
+    - gene: Gene
+
+- Dataset <https://ncbi.nlm.nih.gov/homologene/>:
+  - a:
+    - orth:OrthologyDataset
+  - dct:title:
+    - dataset_title: "HomoloGene Release 68"
+
+- Gene ncbigene:34:
+  - a: orth:Gene
+  - rdfs:label:
+    - gene_label: "ACADM"
+  - obo:RO_0002162:
+    - taxon: Taxon
+  - sio:SIO_010078:
+    - ncbiprotein: Protein
+
+- Taxon taxonomy:9606:
+  - a: taxon:Taxon
+
+- Protein ncbiprotein:NP_000007.1:
+  - a: orth:Protein

@@ -1,0 +1,10 @@
+sparql:
+  description: Obrain human chromosomes from the HCO ontology
+  variables: [Chromosome, build, length, insdc, refseq, ucsc, ensembl]
+
+stanza_sparql:
+  description: Obtain a human chromosome data from the HCO ontology
+  parameters:
+    insdc: <http://identifiers.org/insdc/CM000663.1>
+  variables: [build, length, insdc, refseq, ucsc, ensembl]
+

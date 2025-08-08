@@ -1,0 +1,72 @@
+- FAMSBASEEntry fams:2RH1_A_ref_NP_000673.2:
+    - a: famso:Protein3DModel
+    - dct:identifier:
+        - identifier: "2RH1_A_ref_NP_000673.2"
+    - fams:hasModel:
+        - protein_structure: ProteinStructure
+    - famso:hasTemplateForAlignedRegion:
+        - template: <http://fams.bio.chuo-u.ac.jp/storage/famsbase/GPCR/INs/2RH1_A/ref_NP_000673.2/2RH1_A_cut>
+
+- ProteinStructure <http://fams.bio.chuo-u.ac.jp/storage/famsbase/GPCR/INs/2RH1_A/ref_NP_000673.2/ref_NP_000673.2.pdb>:
+    - a: edam:data_1460
+    - edam:is_output_of:
+        - protein_modelling: ProteinModelling
+
+- ProteinModelling:
+    - a: edam:operation_0477
+    - edam:hasInput:
+        - input_template: <http://fams.bio.chuo-u.ac.jp/storage/famsbase/GPCR/CHAINs/2RH1_A.pdb>
+        - input_alignment: InputAlignment
+
+- InputAlignment <http://fams.bio.chuo-u.ac.jp/storage/famsbase/GPCR/INs/2RH1_A/ref_NP_000673.2/ref_NP_000673.2.in>:
+    - a: edam:data_0863
+    - famso:evalue:
+        - evalue: 1.0e-143
+    - famso:identity:
+        - identity: 23
+    - famso:hasRegion:
+        - pdb_region: PDBRegion
+        - refseq_region: RefSeqRegion
+    - edam:is_output_of:
+        - local_alignment: LocalAlignment
+
+- PDBRegion:
+    - a: faldo:Region
+    - faldo:begin:
+        - pdb_region_begin: FaldoBegin
+    - faldo:end:
+        - pdb_region_end: FaldoEnd
+
+- RefSeqRegion:
+    - a: faldo:Region
+    - faldo:begin:
+        - refseq_region_begin: FaldoBegin
+    - faldo:end:
+        - refseq_region_end: FaldoEnd
+
+- FaldoBegin:
+    - a: ["faldo:Position", "faldo:ExactPosition"]
+    - faldo:position:
+        - begin_position: 8
+    - faldo:reference: 
+        - begin_reference: refseq:NP_000673.2
+
+- FaldoEnd:
+    - a: ["faldo:Position", "faldo:ExactPosition"]
+    - faldo:position:
+        - end_position: 442 
+    - faldo:reference: 
+        - end_reference: refseq:NP_000673.2
+
+- LocalAlignment:
+    - a: edam:operation_0495
+    - edam:hasInput:
+        - pdb_chain: <http://fams.bio.chuo-u.ac.jp/storage/famsbase/GPCR/CHAINs/2RH1_A.pdb>
+        - na_sequence: NASequence
+
+- NASequence:
+    - a: edam:data_2976
+    - rdfs:seeAlso:
+        - uniprot: up:P18089
+        - refseq: refseq:NP_000673.2
+

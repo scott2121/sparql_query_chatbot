@@ -1,0 +1,14 @@
+rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+terms: <http://med2rdf.org/gwascatalog/terms/>
+gwas: <http://rdf.ebi.ac.uk/terms/gwas/>
+oban: <http://purl.org/oban/>
+owl: <http://www.w3.org/2002/07/owl#>
+xsd: <http://www.w3.org/2001/XMLSchema#>
+rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+ro: <http://www.obofoundry.org/ro/ro.owl#>
+study: <http://www.ebi.ac.uk/gwas/studies/>
+dct: <http://purl.org/dc/terms/>
+pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/>
+med2rdf: <http://med2rdf.org/ontology/>
+ensg: <http://identifiers.org/ensembl/>
+dbsnp: <http://identifiers.org/dbsnp/>

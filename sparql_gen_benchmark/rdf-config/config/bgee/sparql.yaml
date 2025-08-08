@@ -1,0 +1,1026 @@
+Q1-1-1:
+  description: What is the expression level of the APOC1 gene?
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q1-2-1:
+  description: What is the expression amount of the APOC1 gene?
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q1-3-1:
+  description: To what extent is the APOC1 gene expressed?
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q1-4-1:
+  description: APOC1遺伝子の発現レベルはいくらですか？
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q1-5-1:
+  description: APOC1遺伝子の発現量を教えてください。
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q1-6-1:
+  description: APOC1遺伝子はどの程度発現していますか？
+  variables: [expression_level]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-1-1:
+  description: At which developmental stage is the APOC1 gene expressed?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-2-1:
+  description: When is the APOC1 gene expressed during developmental stages?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-3-1:
+  description: At which developmental phase is the APOC1 gene activated?
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-4-1:
+  description: APOC1遺伝子はどの発生段階で発現していますか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-5-1:
+  description: APOC1遺伝子が発現する発生ステージはいつですか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q2-6-1:
+  description: APOC1遺伝子はどの開発段階で活性化されますか？
+  variables: [expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-1-1:
+  description: What is the FDR p-value of the APOC1 gene?
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-2-1:
+  description: Please tell me the false discovery rate (FDR) p-value of the APOC1 gene.
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-3-1:
+  description: What is the FDR-adjusted p-value of the APOC1 gene?
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-4-1:
+  description: APOC1遺伝子のFDR p値はいくらですか？
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-5-1:
+  description: APOC1遺伝子の偽発見率（FDR）p値を教えてください。
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q3-6-1:
+  description: APOC1遺伝子のFDR調整済みp値はいくつですか？
+  variables: [expression_fdr_pvalue]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-1-1:
+  description: In which sex is the APOC1 gene expressed?
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-2-1:
+  description: Is the APOC1 gene expressed in males or females?
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-3-1:
+  description: In which sex is the expression of the APOC1 gene observed?
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-4-1:
+  description: APOC1遺伝子はどの性別で発現していますか？
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-5-1:
+  description: APOC1遺伝子は男性と女性のどちらで発現しますか？
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q4-6-1:
+  description: APOC1遺伝子の発現はどの性で見られますか？
+  variables: [expression_condition_sex]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-1-1:
+  description: What strain is the APOC1 gene expressed in?
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-2-1:
+  description: In which strains is the APOC1 gene expressed?
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-3-1:
+  description: Which genetic backgrounds exhibit expression of the APOC1 gene?
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-4-1:
+  description: APOC1遺伝子はどの株系統で発現していますか？
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-5-1:
+  description: APOC1遺伝子が発現する株系統は何ですか？
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q5-6-1:
+  description: APOC1遺伝子はどのような株系統で発現していますか？
+  variables: [expression_condition_strain]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-1-1:
+  description: What is the Ensembl Gene ID of the APOC1 gene?
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-2-1:
+  description: Could you provide the Ensembl Gene Identifier for the APOC1 gene?
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-3-1:
+  description: What is the Ensembl ID associated with the APOC1 gene?
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-4-1:
+  description: APOC1遺伝子のEnsembl Gene IDは何ですか？
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-5-1:
+  description: APOC1遺伝子のEnsembl遺伝子IDを教えてください。
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q6-6-1:
+  description: APOC1遺伝子のEnsembl Gene Identifierは何ですか？
+  variables: [gene_ensembl_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-1-1:
+  description: What is the UniProt ID of the APOC1 gene?
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-2-1:
+  description: Could you provide the UniProt Identifier for the APOC1 gene?
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-3-1:
+  description: What is the UniProt accession number for the APOC1 gene?
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-4-1:
+  description: APOC1遺伝子のUniProt IDは何ですか？
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-5-1:
+  description: APOC1遺伝子のUniProt識別子を教えてください。
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q7-6-1:
+  description: APOC1遺伝子のUniProt IDを教えていただけますか？
+  variables: [gene_uniprot_id]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q8-1-1:
+  description: What is the NCBI Gene ID of the LOC118972170 gene?
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q8-2-1:
+  description: Could you provide the NCBI Gene Identifier for the LOC118972170 gene?
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q8-3-1:
+  description: What is the NCBI Gene accession number for the LOC118972170 gene?
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q8-4-1:
+  description: LOC118972170遺伝子のNCBI Gene IDは何ですか？
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q8-5-1:
+  description: LOC118972170遺伝子のNCBI遺伝子IDを教えてください。
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q8-6-1:
+  description: LOC118972170遺伝子のNCBI Gene Identifierは何ですか？
+  variables: [gene_ncbigene_id]
+  parameters:
+    gene_name: "LOC118972170"
+  options:
+    distinct: true
+
+Q9-1-1:
+  description: To which species does the APOC1 gene belong?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q9-2-1:
+  description: In which organism is the APOC1 gene found?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q9-3-1:
+  description: What species contains the APOC1 gene?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q9-4-1:
+  description: APOC1遺伝子はどの生物種に属していますか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q9-5-1:
+  description: APOC1遺伝子が属する生物種は何ですか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q9-6-1:
+  description: APOC1遺伝子はどの種に存在していますか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-1-1:
+  description: Where (in which tissues, cells) is the APOC1 gene expressed?
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-2-1:
+  description: In which tissues and cells is the APOC1 gene expressed?
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-3-1:
+  description: In what tissues and cellular contexts does the APOC1 gene show expression?
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-4-1:
+  description: APOC1遺伝子はどこ（どの組織、細胞）で発現していますか？
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-5-1:
+  description: APOC1遺伝子はどの組織や細胞で発現していますか？
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q10-6-1:
+  description: APOC1遺伝子はどの組織や細胞において発現していますか？
+  variables: [anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q11-1-1:
+  description: What is the description of the anatomical entity primary oocyte?
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q11-2-1:
+  description: Please provide a description of the anatomical entity primary oocyte.
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q11-3-1:
+  description: How is the anatomical entity primary oocyte described?
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q11-4-1:
+  description: primary oocyteの解剖学的実体の説明は？
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q11-5-1:
+  description: primary oocyteの解剖学的実体について説明してください。
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q11-6-1:
+  description: primary oocyteの解剖学的な特徴は何ですか？
+  variables: [anatomical_entity_description]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q12-1-1:
+  description: What is the expression level of the APOC1 gene at each developmental stage?
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q12-2-1:
+  description: How does the expression level of the APOC1 gene vary across developmental stages?
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q12-3-1:
+  description: What are the expression levels of the APOC1 gene during different stages of development?
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q12-4-1:
+  description: APOC1遺伝子の発達段階ごとの発現量は？
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q12-5-1:
+  description: APOC1遺伝子は発達段階ごとにどのくらい発現していますか？
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q12-6-1:
+  description: 各発達段階におけるAPOC1遺伝子の発現量はどの程度ですか？
+  variables: [expression_level,expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-1-1:
+  description: What is the identifier of the APOC1 gene?
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-2-1:
+  description: What is the ID of the APOC1 gene?
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-3-1:
+  description: What identifier is used for the APOC1 gene?
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-4-1:
+  description: APOC1遺伝子の識別子は何ですか？
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-5-1:
+  description: APOC1遺伝子の識別番号は何ですか？
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q13-6-1:
+  description: APOC1遺伝子のIDは何ですか？
+  variables: [gene_identifier]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q14-1-1:
+  description: What is the scientific name of human?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q14-2-1:
+  description: What is the Latin name of human?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q14-3-1:
+  description: What is the scientific terminology for human?
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q14-4-1:
+  description: humanの学名は何ですか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q14-5-1:
+  description: humanの科学的名称は何ですか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q14-6-1:
+  description: humanのラテン名は何ですか？
+  variables: [taxonomy_scientific_name]
+  parameters:
+    taxonomy_common_name: "human"
+  options:
+    distinct: true
+
+Q15-1-1:
+  description: What is the expression level of the APOC1 gene in each tissue?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q15-2-1:
+  description: How much is the APOC1 gene expressed in each tissue?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q15-3-1:
+  description: What is the expression level of the APOC1 gene by tissue?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q15-4-1:
+  description: APOC1遺伝子の組織ごとの発現量は？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q15-5-1:
+  description: APOC1遺伝子は各組織でどの程度発現していますか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q15-6-1:
+  description: 各組織におけるAPOC1遺伝子の発現レベルはどれくらいですか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-1-1:
+  description: What is the expression level of the APOC1 gene at each developmental stage?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-2-1:
+  description: How is the APOC1 gene expressed across developmental stages?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-3-1:
+  description: What are the expression levels of the APOC1 gene during different developmental stages?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-4-1:
+  description: APOC1遺伝子の発達段階ごとの発現量は？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-5-1:
+  description: APOC1遺伝子の発達段階別の発現量はどのようになっていますか？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q16-6-1:
+  description: 発達段階ごとにおけるAPOC1遺伝子の発現レベルはどのくらいですか？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-1-1:
+  description: What is the expression level of the APOC1 gene across different species?
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-2-1:
+  description: How much is the APOC1 gene expressed in each species?
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-3-1:
+  description: What is the expression level of the APOC1 gene for each biological name?
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-4-1:
+  description: APOC1遺伝子の生物学名ごとの発現量は？
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-5-1:
+  description: APOC1遺伝子の生物種別の発現量はどの程度ですか？
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q17-6-1:
+  description: 生物学的名称ごとに見たAPOC1遺伝子の発現レベルはどうなっていますか？
+  variables: [expression_level, taxonomy_scientific_name]
+  parameters:
+    gene_name: "APOC1"
+  options:
+    distinct: true
+
+Q18-1-1:
+  description: What is the expression level of each gene in primary oocyte cells?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q18-2-1:
+  description: What is the expression level of each gene within primary oocyte cells?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q18-3-1:
+  description: How much is each gene expressed in primary oocyte cells?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q18-4-1:
+  description: primary oocyte細胞における遺伝子ごとの発現量は？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q18-5-1:
+  description: primary oocyte細胞内での各遺伝子の発現量はどのくらいですか？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q18-6-1:
+  description: primary oocyte細胞におけるそれぞれの遺伝子の発現レベルはどうですか？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "primary oocyte"
+  options:
+    distinct: true
+
+Q19-1-1:
+  description: What is the expression level of the APOC1 gene in each tissue of Homo sapiens?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q19-2-1:
+  description: What are the expression levels of the APOC1 gene across different tissues in Homo sapiens?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q19-3-1:
+  description: To what extent is the APOC1 gene expressed in various tissues within Homo sapiens?
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q19-4-1:
+  description: Homo sapiensのAPOC1遺伝子の組織ごとの発現量は？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q19-5-1:
+  description: Homo sapiensにおけるAPOC1遺伝子の各組織での発現レベルはどれくらいですか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q19-6-1:
+  description: Homo sapiensに存在するAPOC1遺伝子は、組織ごとにどの程度発現していますか？
+  variables: [expression_level, anatomical_entity_name]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-1-1:
+  description: What is the expression level of the APOC1 gene at each developmental stage in Homo sapiens?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-2-1:
+  description: How is the expression level of the APOC1 gene distributed across different developmental stages in Homo sapiens?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-3-1:
+  description: To what degree is the APOC1 gene expressed at various developmental stages within Homo sapiens?
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-4-1:
+  description: Homo sapiensのAPOC1遺伝子の発達段階ごとの発現量は？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-5-1:
+  description: Homo sapiensにおけるAPOC1遺伝子の各発達段階での発現レベルはどれくらいですか？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q20-6-1:
+  description: Homo sapiensのAPOC1遺伝子は、発達段階ごとにどの程度発現していますか？
+  variables: [expression_level, expression_condition_developmental_stage]
+  parameters:
+    gene_name: "APOC1"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-1-1:
+  description: What is the expression level of each gene in breast cells of Homo sapiens?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-2-1:
+  description: What are the expression levels of each gene within breast cells in Homo sapiens?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-3-1:
+  description: To what extent is each gene expressed in breast cells of Homo sapiens?
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-4-1:
+  description: Homo sapiensのbreast細胞における遺伝子ごとの発現量は？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-5-1:
+  description: Homo sapiensのbreast細胞内で各遺伝子の発現レベルはどれくらいですか？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
+Q21-6-1:
+  description: Homo sapiensに存在するbreast細胞におけるそれぞれの遺伝子の発現量はどの程度ですか？
+  variables: [expression_level, gene_name]
+  parameters:
+    anatomical_entity_name:  "breast"
+    taxonomy_scientific_name: "Homo sapiens"
+  options:
+    distinct: true
+
