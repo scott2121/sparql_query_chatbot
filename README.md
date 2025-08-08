@@ -27,6 +27,17 @@ This project provides a chatbot interface for generating and executing SPARQL qu
 
 ## Usage
 
+### Chat UI
+The chat interface for SPARQL query generation is available at `http://localhost:8502` after starting the Docker containers.
+
+### Database Management
+Database administration interface (Adminer) is accessible at `http://localhost:8080` for managing the PostgreSQL database.
+
+Default database connection details:
+- **Username**: user
+- **Password**: password
+- **Database**: chatdb
+
 ### Backend API
 The backend API (FastAPI) provides endpoints for chatbot interaction and database queries. Access it at `http://localhost:8000` after starting the Docker containers.
 
@@ -34,10 +45,7 @@ The backend API (FastAPI) provides endpoints for chatbot interaction and databas
 Scripts in `sparql_gen_benchmark/functions/` allow you to generate, execute, and evaluate SPARQL queries. See the scripts for usage examples.
 
 ## RDF Configurations
-The `sparql_gen_benchmark/rdf-config/` directory contains RDF configuration files for various biological and chemical datasets. Refer to its README for details.
-
-## Contributing
-Pull requests and issues are welcome. Please follow standard Python and Docker best practices.
+The `rdf-config` repository (with updated `model.yaml` variable names and added Uniprot & Bgee set models) is included in this project and is required for the SPARQL query generation process. This is based on the [dbcls/rdf-config](https://github.com/dbcls/rdf-config) project with custom modifications for enhanced biological and chemical dataset support.
 
 ## License
 All files in this repository are distributed under the [MIT License](https://opensource.org/license/mit "The MIT License").
